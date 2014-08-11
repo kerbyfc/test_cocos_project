@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCDataVisitor.cpp \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/CCRef.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/CCPlatformMacros.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/ccConfig.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/CCPlatformConfig.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/mac/CCPlatformDefine.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/deprecated/CCBool.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/CCDataVisitor.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/deprecated/CCInteger.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/CCConsole.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/ccMacros.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/mac/CCStdC.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/CCCommon.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/deprecated/CCFloat.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/deprecated/CCDouble.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/deprecated/CCString.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/deprecated/CCArray.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/ccCArray.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/deprecated/CCDictionary.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/uthash.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/deprecated/CCSet.h

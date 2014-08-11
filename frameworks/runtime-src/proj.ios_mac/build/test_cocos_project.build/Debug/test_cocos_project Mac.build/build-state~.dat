@@ -1,0 +1,1008 @@
+Ttest_cocos_project Mac
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Info.plist /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Info.plist
+cProcessPCH++ /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/AppDelegate.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/main.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/MacOS/test_cocos_project\ Mac normal x86_64
+cCpResource /Users/kerbyfc/Projects/test_cocos_project/project.json /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/project.json
+cCpResource /Users/kerbyfc/Projects/test_cocos_project/main.js /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/main.js
+cCpResource /Users/kerbyfc/Projects/test_cocos_project/res /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/res
+cCpResource /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/script /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/script
+cCpResource mac/Icon.icns /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/Icon.icns
+cCpResource /Users/kerbyfc/Projects/test_cocos_project/src /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/src
+cTouch /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005311A664000000000000044C
+t1393665636
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005311A66400000000000001DE
+t1393665636
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005311A6640000000000095820
+t1393665636
+s612384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c000000005311A6650000000000268434
+t1393665637
+s2524212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005311A665000000000002848C
+t1393665637
+s165004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005311A666000000000008B334
+t1393665638
+s570164
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005311A66700000000000C9E38
+t1393665639
+s826936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c000000005311A668000000000004426C
+t1393665640
+s279148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000005311A66A000000000000A564
+t1393665642
+s42340
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005311A66B000000000000BB7C
+t1393665643
+s47996
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005311A66B0000000000055BC0
+t1393665643
+s351168
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib
+c000000005311A675000000000000A4C8
+t1393665653
+s42184
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libsqlite3.dylib
+c000000005311A67500000000000136F8
+t1393665653
+s79608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
+c000000005311A67500000000000044B8
+t1393665653
+s17592
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/script
+c0000000053E31E5B000000000000030E
+t1407393371
+s782
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp
+c0000000053E31E600000000000000ED5
+t1407393376
+s3797
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project Mac.build/Objects-normal/x86_64/AppDelegate.o
+t1407393535
+s1590068
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project Mac.build/Objects-normal/x86_64/main.o
+t1407393534
+s41352
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project Mac.build/Objects-normal/x86_64/test_cocos_project Mac.LinkFileList
+c0000000053E31EFC0000000000000163
+t1407393532
+s355
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Icon.icns
+c0000000053E31E5B00000000000AEE1E
+t1407393371
+s716318
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Info.plist
+c0000000053E31E5B0000000000000498
+t1407393371
+s1176
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Prefix.pch
+c0000000053E31E5B0000000000000092
+t1407393371
+s146
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/main.cpp
+c0000000053E31E5B0000000000000593
+t1407393371
+s1427
+
+N/Users/kerbyfc/Projects/test_cocos_project/main.js
+c0000000053E31E5A0000000000000130
+t1407393370
+s304
+
+N/Users/kerbyfc/Projects/test_cocos_project/project.json
+c0000000053E31E5A0000000000000129
+t1407393370
+s297
+
+N/Users/kerbyfc/Projects/test_cocos_project/res
+c0000000053E31E5A00000000000000CC
+t1407393370
+s204
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion Mac.a
+c0000000053E31EFC000000000006C228
+t1407393532
+s442920
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk Mac.a
+c0000000053E31EAE00000000000C6598
+t1407393454
+s812440
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx Mac.a
+c0000000053E31EF100000000113378C8
+t1407393521
+s288585928
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions Mac.a
+c0000000053E31EFB00000000023DB9A0
+t1407393531
+s37599648
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libjsbindings Mac.a
+c0000000053E31EAD0000000004BDA270
+t1407393453
+s79536752
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app
+t1407393532
+s102
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Info.plist
+t1407393532
+s1580
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/MacOS/test_cocos_project Mac
+t1407393536
+s31838364
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/PkgInfo
+t1407393532
+s8
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/Icon.icns
+t1407393537
+s716318
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/main.js
+t1407393537
+s304
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/project.json
+t1407393537
+s297
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/res
+t1407393537
+s204
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/script
+t1407393537
+s782
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/src
+t1407393537
+s136
+
+N/Users/kerbyfc/Projects/test_cocos_project/src
+c0000000053E31E5A0000000000000088
+t1407393370
+s136
+
+N/var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch.pch
+t1407393532
+s126808
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies172bfa7c5693b941^decafa7c5693b941^---0#1#1#--18"Check dependencies36"B1D28567-B054-4BC3-9328-294B9D9F269F-
+
+CCompileC build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/AppDelegate.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s429086332.998728
+e429086335.076591
+r1
+xCompileC
+xbuild/test_cocos_project.build/Debug/test_cocos_project Mac.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCApplication.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCPlatformConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCCommon.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCPlatformMacros.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCPlatformDefine.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCApplicationProtocol.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/SimpleAudioEngine.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/Export.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsapi.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Atomics.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Assertions.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Attributes.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Compiler.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Likely.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/TypeTraits.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/FloatingPoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Casting.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Types.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/MemoryReporting.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/RangedPtr.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/ArrayUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Array.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/NullPtr.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsalloc.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/TypeDecls.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/Utility.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Move.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Scoped.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/GuardObjects.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/TemplateLib.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jstypes.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js-config.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsversion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jscpucfg.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jspubtd.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/LinkedList.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/PodOperations.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsprototypes.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/CallArgs.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/RootingAPI.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/Value.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/Anchor.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/Class.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/Id.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/HashTable.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Alignment.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/DebugOnly.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/ReentrancyGuard.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/Vector.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/Vector.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/AllocPolicy.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/mozilla/MathAlgorithms.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsfriendapi.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsbytecode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js/CallNonGenericMethod.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/js.msg
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/auto/jsb_cocos2dx_ui_auto.hpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/auto/jsb_cocos2dx_studio_auto.hpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/auto/jsb_cocos2dx_builder_auto.hpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/auto/jsb_cocos2dx_spine_auto.hpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/auto/jsb_cocos2dx_extension_auto.hpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/ui/jsb_cocos2dx_ui_manual.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/cocostudio/jsb_cocos2dx_studio_manual.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/cocosbuilder/js_bindings_ccbreader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/cocosbuilder/cocosbuilder_specifics.hpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/cocos2d_specifics.hpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/ScriptingCore.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/cocos2d.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCRef.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCRefPtr.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccMacros.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCConsole.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCStdC.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCVector.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCMap.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCAutoreleasePool.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCNS.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCGeometry.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCMath.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec2.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCMathBase.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec2.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec3.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec3.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Mat4.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec4.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec4.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Mat4.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Quaternion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Quaternion.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCData.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCValue.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccTypes.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCGL.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCConfiguration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCDirector.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabelAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAtlasNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventDispatcher.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListener.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEvent.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCScriptSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCTouch.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventTouch.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventKeyboard.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCProtocols.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCTexture2D.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCAffineTransform.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccGLStateCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCQuadCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCRenderCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGLProgramState.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCRenderCommandPool.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCScheduler.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/uthash.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/base64.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ZipUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCProfiling.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccUTF8.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCUserDefault.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCIMEDelegate.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCIMEDispatcher.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventType.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerTouch.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerKeyboard.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerMouse.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventMouse.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventAcceleration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerAcceleration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventCustom.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerCustom.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventFocus.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerFocus.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/MathUtil.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/MathUtil.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCVertex.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAction.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionInterval.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSpriteFrame.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAnimation.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionCamera.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionEase.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionPageTurn3D.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionGrid3D.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionInstant.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionProgressTimer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionTiledGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionTween.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionCatmullRom.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTweenFunction.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCDrawingPrimitives.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCDrawNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCCustomCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabelTTF.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabelBMFont.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabel.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSpriteBatchNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCTextureAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCBatchCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGLProgram.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCFontAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCFontFNT.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCFont.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLayer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsWorld.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCScene.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTransition.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTransitionPageTurn.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTransitionProgress.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCMenu.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCMenuItem.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCClippingNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGroupCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCMotionStreak.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCProgressTimer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSprite.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsBody.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsShape.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCRenderTexture.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCImage.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCNodeGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleBatchNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleSystem.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCString.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCArray.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccCArray.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCDataVisitor.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleExamples.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleSystemQuad.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCGrabber.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCRenderer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGLProgramCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShaders.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCTextureCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsContact.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCDevice.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCFileUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCSAXParser.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCThread.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/desktop/CCGLView.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCGLViewProtocol.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/glfw3/include/mac/glfw3.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAnimationCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSpriteFrameCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTextFieldTTF.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParallaxNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXLayer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXObjectGroup.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXXMLParser.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXTiledMap.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTileMapAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCComponent.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCComponentContainer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCDictionary.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCSet.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCInteger.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCFloat.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCDouble.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCBool.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCNotificationCenter.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCDeprecated.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/js_bindings_config.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/js_bindings_core.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/spidermonkey_specifics.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/js_manual_conversions.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/chipmunk.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/chipmunk_types.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/cpVect.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/cpBB.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/cpSpatialIndex.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/cpBody.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/cpShape.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/cpPolyShape.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/cpArbiter.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpConstraint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpPinJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpSlideJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpPivotJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpGrooveJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpDampedSpring.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpDampedRotarySpring.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpRotaryLimitJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpRatchetJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpGearJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/constraints/cpSimpleMotor.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/include/chipmunk/cpSpace.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CocosBuilder.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBAnimationManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/extensions/ExtensionMacros.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBSequence.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBSequenceProperty.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBKeyframe.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/extensions/GUI/CCControlExtension/CCControl.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/extensions/GUI/CCControlExtension/CCControlUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBFileLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNodeLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/extensions/GUI/CCControlExtension/CCInvocation.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBReader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBMemberVariableAssigner.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBSelectorResolver.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCControlButtonLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCControlLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/extensions/GUI/CCControlExtension/CCControlButton.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/extensions/GUI/CCControlExtension/CCScale9Sprite.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCLabelBMFontLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCLabelTTFLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCLayerColorLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCLayerLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCLayerGradientLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCMenuItemImageLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCMenuItemLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCMenuLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNode+CCBRelativePositioning.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNodeLoaderLibrary.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNodeLoaderListener.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCParticleSystemQuadLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCScale9SpriteLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCScrollViewLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/extensions/GUI/CCScrollView/CCScrollView.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCSpriteLoader.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/spine/jsb_cocos2dx_spine_manual.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/extension/jsb_cocos2dx_extension_manual.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/localstorage/js_bindings_system_registration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/chipmunk/js_bindings_chipmunk_registration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/jsb_opengl_registration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/jsb_opengl_functions.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/jsb_opengl_manual.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/network/XMLHTTPRequest.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/network/HttpClient.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/network/HttpRequest.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/network/HttpResponse.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/jsb_helper.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/network/jsb_websocket.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/network/jsb_socketio.h
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:4:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp:4:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac/jsapi.h:23:
+o[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac/jspubtd.h:483:51: [0m[0;1;35mwarning: [0m[1moffset of on non-standard-layout type
+o      'js::PerThreadDataFriendFields::RuntimeDummy' [-Winvalid-offsetof][0m
+o    static const size_t RuntimeMainThreadOffset = offsetof(RuntimeDummy, mainThread);
+o[0;1;32m                                                  ^                      ~~~~~~~~~~
+o[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:1:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.h:12:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac/CCApplication.h:34:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:623:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/initializer_list:47:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/cstddef:44:
+o[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/include/stddef.h:87:24: [0m[0;1;30mnote: [0mexpanded from macro 'offsetof'[0m
+o#define offsetof(t, d) __builtin_offsetof(t, d)
+o[0;1;32m                       ^
+o[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:4:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp:5:
+o[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac/jsfriendapi.h:1430:40: [0m[0;1;35mwarning: [0m[1moffset of on non-standard-layout type
+o      'JSJitMethodCallArgs' [-Winvalid-offsetof][0m
+o    static const size_t offsetOfArgv = offsetof(JSJitMethodCallArgs, argv_);
+o[0;1;32m                                       ^                             ~~~~~
+o[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:1:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.h:12:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac/CCApplication.h:34:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:623:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/initializer_list:47:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/cstddef:44:
+o[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/include/stddef.h:87:24: [0m[0;1;30mnote: [0mexpanded from macro 'offsetof'[0m
+o#define offsetof(t, d) __builtin_offsetof(t, d)
+o[0;1;32m                       ^
+o[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:4:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp:5:
+o[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac/jsfriendapi.h:1431:40: [0m[0;1;35mwarning: [0m[1moffset of on non-standard-layout type
+o      'JSJitMethodCallArgs' [-Winvalid-offsetof][0m
+o    static const size_t offsetOfArgc = offsetof(JSJitMethodCallArgs, argc_);
+o[0;1;32m                                       ^                             ~~~~~
+o[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:1:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.h:12:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac/CCApplication.h:34:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:623:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/initializer_list:47:
+oIn file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/cstddef:44:
+o[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/include/stddef.h:87:24: [0m[0;1;30mnote: [0mexpanded from macro 'offsetof'[0m
+o#define offsetof(t, d) __builtin_offsetof(t, d)
+o[0;1;32m                       ^
+o[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:17:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/jsb_opengl_registration.h:26:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/jsb_opengl_functions.h:9:
+o[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/jsb_opengl_manual.h:41:9: [0m[0;1;35mwarning: [0m[1m'glReleaseShaderCompiler' macro redefined[0m
+o#define glReleaseShaderCompiler()
+o[0;1;32m        ^
+o[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:12:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/cocosbuilder/js_bindings_ccbreader.h:28:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/cocosbuilder/cocosbuilder_specifics.hpp:27:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/cocosbuilder/../cocos2d_specifics.hpp:27:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/ScriptingCore.h:31:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/cocos2d.h:51:
+oIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/base/ccTypes.h:35:
+o[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac/CCGL.h:44:9: [0m[0;1;30mnote: [0mprevious definition is here[0m
+o#define glReleaseShaderCompiler(xxx)
+o[0;1;32m        ^
+o[0m4 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp279"[1mCompileC[0m build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/AppDelegate.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler3bc8ff7c5693b941^569b137f5693b941^-8132"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:4:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp:4:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac/jsapi.h:23:[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac/jspubtd.h:483:51: [0m[0;1;35mwarning: [0m[1moffset of on non-standard-layout type      'js::PerThreadDataFriendFields::RuntimeDummy' [-Winvalid-offsetof][0m    static const size_t RuntimeMainThreadOffset = offsetof(RuntimeDummy, mainThread);[0;1;32m                                                  ^                      ~~~~~~~~~~[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:1:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.h:12:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac/CCApplication.h:34:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:623:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/initializer_list:47:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/cstddef:44:[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/include/stddef.h:87:24: [0m[0;1;30mnote: [0mexpanded from macro 'offsetof'[0m#define offsetof(t, d) __builtin_offsetof(t, d)[0;1;32m                       ^[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:4:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp:5:[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac/jsfriendapi.h:1430:40: [0m[0;1;35mwarning: [0m[1moffset of on non-standard-layout type      'JSJitMethodCallArgs' [-Winvalid-offsetof][0m    static const size_t offsetOfArgv = offsetof(JSJitMethodCallArgs, argv_);[0;1;32m                                       ^                             ~~~~~[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:1:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.h:12:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac/CCApplication.h:34:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:623:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/initializer_list:47:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/cstddef:44:[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/include/stddef.h:87:24: [0m[0;1;30mnote: [0mexpanded from macro 'offsetof'[0m#define offsetof(t, d) __builtin_offsetof(t, d)[0;1;32m                       ^[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:4:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp:5:[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac/jsfriendapi.h:1431:40: [0m[0;1;35mwarning: [0m[1moffset of on non-standard-layout type      'JSJitMethodCallArgs' [-Winvalid-offsetof][0m    static const size_t offsetOfArgc = offsetof(JSJitMethodCallArgs, argc_);[0;1;32m                                       ^                             ~~~~~[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:1:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.h:12:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac/CCApplication.h:34:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/string:439:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/algorithm:623:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/initializer_list:47:In file included from /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/c++/v1/cstddef:44:[1m/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/include/stddef.h:87:24: [0m[0;1;30mnote: [0mexpanded from macro 'offsetof'[0m#define offsetof(t, d) __builtin_offsetof(t, d)[0;1;32m                       ^[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:17:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/jsb_opengl_registration.h:26:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/jsb_opengl_functions.h:9:[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/jsb_opengl_manual.h:41:9: [0m[0;1;35mwarning: [0m[1m'glReleaseShaderCompiler' macro redefined[0m#define glReleaseShaderCompiler()[0;1;32m        ^[0mIn file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:12:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/cocosbuilder/js_bindings_ccbreader.h:28:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/cocosbuilder/cocosbuilder_specifics.hpp:27:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/cocosbuilder/../cocos2d_specifics.hpp:27:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/ScriptingCore.h:31:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/cocos2d.h:51:In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/base/ccTypes.h:35:[1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac/CCGL.h:44:9: [0m[0;1;30mnote: [0mprevious definition is here[0m#define glReleaseShaderCompiler(xxx)[0;1;32m        ^[0m4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@83"Offset of on non-standard-layout type 'js::PerThreadDataFriendFields::RuntimeDummy'-429086335#18446744073709551615#0#4(2@114"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:4:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@96"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp0000000000000000^3#9#3#9#66#0#21"Apple LLVM 5.0 Notice--2@157"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp:4:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp0000000000000000^3#9#3#9#56#0#21"Apple LLVM 5.0 Notice--2@164"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac/jsapi.h:23:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsapi.h0000000000000000^22#9#22#9#620#0#21"Apple LLVM 5.0 Notice--2@30"Expanded from macro 'offsetof'-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/stddef.h0000000000000000^86#23#86#23#2754#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@116"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jspubtd.h0000000000000000^482#50#482#50#15088#0#14"Semantic Issue1(3@116"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jspubtd.h0000000000000000^482#73#482#83#15111#0#-2@59"Offset of on non-standard-layout type 'JSJitMethodCallArgs'-429086335#18446744073709551615#0#3(2@114"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:4:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp0000000000000000^3#9#3#9#66#0#21"Apple LLVM 5.0 Notice--2@157"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp:5:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp0000000000000000^4#9#4#9#75#0#21"Apple LLVM 5.0 Notice--2@30"Expanded from macro 'offsetof'-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/stddef.h0000000000000000^86#23#86#23#2754#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@120"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsfriendapi.h0000000000000000^1429#39#1429#39#46064#0#14"Semantic Issue1(3@120"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsfriendapi.h0000000000000000^1429#69#1429#74#46094#0#-2@59"Offset of on non-standard-layout type 'JSJitMethodCallArgs'-429086335#18446744073709551615#0#3(2@114"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:4:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp0000000000000000^3#9#3#9#66#0#21"Apple LLVM 5.0 Notice--2@157"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp:5:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/auto/jsb_cocos2dx_auto.hpp0000000000000000^4#9#4#9#75#0#21"Apple LLVM 5.0 Notice--2@30"Expanded from macro 'offsetof'-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@120"file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/stddef.h0000000000000000^86#23#86#23#2754#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@120"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsfriendapi.h0000000000000000^1430#39#1430#39#46141#0#14"Semantic Issue1(3@120"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/external/spidermonkey/include/mac/jsfriendapi.h0000000000000000^1430#69#1430#74#46171#0#-2@41"'glReleaseShaderCompiler' macro redefined-429086335#18446744073709551615#0#4(2@115"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp:17:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp0000000000000000^16#9#16#9#648#0#21"Apple LLVM 5.0 Notice--2@164"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/jsb_opengl_registration.h:26:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@114"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/jsb_opengl_registration.h0000000000000000^25#9#25#9#1246#0#21"Apple LLVM 5.0 Notice--2@160"In file included from /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual/jsb_opengl_functions.h:9:-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@111"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/jsb_opengl_functions.h0000000000000000^8#9#8#9#199#0#21"Apple LLVM 5.0 Notice--2@27"Previous definition is here-429086335#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCGL.h0000000000000000^43#8#43#8#1856#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@108"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/manual/jsb_opengl_manual.h0000000000000000^40#8#40#8#1546#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@96"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp0000000000000000^5293"[1mCompileC[0m build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/AppDelegate.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCOCOS2D_JAVASCRIPT -DCC_ENABLE_CHIPMUNK_INTEGRATION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/test_cocos_project\ Mac.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/base -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/physics -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/math/kazmath -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/2d -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/gui -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/network -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/audio/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/extensions -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/external/glfw3/include/mac -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac -I/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/DerivedSources/x86_64 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -include /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.cpp -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/AppDelegate.o36"0D87C26E-76B8-4A3B-B001-3111F5800140-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CCompileC build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/main.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s429086332.998954
+e429086334.351775
+r1
+xCompileC
+xbuild/test_cocos_project.build/Debug/test_cocos_project Mac.build/Objects-normal/x86_64/main.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/main.cpp
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/Classes/AppDelegate.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCApplication.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCPlatformConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCCommon.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCPlatformMacros.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCPlatformDefine.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCApplicationProtocol.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/cocos2d.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCRef.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCRefPtr.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccMacros.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCConsole.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCStdC.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCVector.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCMap.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCAutoreleasePool.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCNS.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCGeometry.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCMath.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec2.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCMathBase.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec2.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec3.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec3.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Mat4.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec4.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec4.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Mat4.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Quaternion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Quaternion.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCData.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCValue.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccTypes.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCGL.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCConfiguration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCDirector.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabelAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAtlasNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventDispatcher.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListener.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEvent.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCScriptSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCTouch.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventTouch.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventKeyboard.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCProtocols.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCTexture2D.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCAffineTransform.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccGLStateCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCQuadCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCRenderCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGLProgramState.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCRenderCommandPool.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCScheduler.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/uthash.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/base64.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ZipUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCProfiling.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccUTF8.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCUserDefault.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCIMEDelegate.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCIMEDispatcher.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventType.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerTouch.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerKeyboard.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerMouse.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventMouse.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventAcceleration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerAcceleration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventCustom.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerCustom.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventFocus.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerFocus.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/MathUtil.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/MathUtil.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCVertex.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAction.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionInterval.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSpriteFrame.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAnimation.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionCamera.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionEase.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionPageTurn3D.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionGrid3D.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionInstant.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionProgressTimer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionTiledGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionTween.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionCatmullRom.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTweenFunction.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCDrawingPrimitives.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCDrawNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCCustomCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabelTTF.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabelBMFont.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabel.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSpriteBatchNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCTextureAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCBatchCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGLProgram.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCFontAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCFontFNT.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCFont.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLayer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsWorld.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCScene.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTransition.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTransitionPageTurn.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTransitionProgress.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCMenu.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCMenuItem.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCClippingNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGroupCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCMotionStreak.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCProgressTimer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSprite.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsBody.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsShape.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCRenderTexture.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCImage.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCNodeGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleBatchNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleSystem.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCString.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCArray.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccCArray.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCDataVisitor.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleExamples.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleSystemQuad.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCGrabber.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCRenderer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGLProgramCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShaders.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCTextureCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsContact.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCDevice.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCFileUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCSAXParser.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCThread.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/desktop/CCGLView.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCGLViewProtocol.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/glfw3/include/mac/glfw3.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAnimationCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSpriteFrameCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTextFieldTTF.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParallaxNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXLayer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXObjectGroup.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXXMLParser.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXTiledMap.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTileMapAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCComponent.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCComponentContainer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/SimpleAudioEngine.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/Export.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCDictionary.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCSet.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCInteger.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCFloat.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCDouble.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCBool.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCNotificationCenter.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCDeprecated.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/main.cpp195"[1mCompileC[0m build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/main.o [1mmac/main.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compileredd5ff7c5693b941^02115a7e5693b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/main.cpp0000000000000000^5190"[1mCompileC[0m build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/main.o [1mmac/main.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCOCOS2D_JAVASCRIPT -DCC_ENABLE_CHIPMUNK_INTEGRATION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/test_cocos_project\ Mac.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/base -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/physics -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/math/kazmath -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/2d -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/gui -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/network -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/audio/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/extensions -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/external/glfw3/include/mac -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac -I/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/DerivedSources/x86_64 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -include /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/main.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/main.cpp -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/main.o36"148E7E56-DFB9-4659-8D04-4BF67CC6AE6A-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CCpResource /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/script /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/script
+s429086337.106398
+e429086337.147804
+r1
+xCpResource
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/script
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/script
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/script217"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/script [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/script[0m4b581b815693b941^e0d625815693b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project%20Mac.app/Contents/Resources/script0034a8dddcffdf42^600"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/script [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/script[0m    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/bindings/script /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources36"4DC4A093-D1E0-4864-9652-65742281746B-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CCpResource /Users/kerbyfc/Projects/test_cocos_project/main.js /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/main.js
+s429086337.105972
+e429086337.129413
+r1
+xCpResource
+x/Users/kerbyfc/Projects/test_cocos_project/main.js
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/main.js
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/main.js187"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/main.js [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/main.js[0m7e391b815693b941^ff2121815693b941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project%20Mac.app/Contents/Resources/main.js0034a8dddcffdf42^539"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/main.js [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/main.js[0m    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kerbyfc/Projects/test_cocos_project/main.js /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources36"490CB95C-7770-4094-B061-6745B4F66044-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CCpResource /Users/kerbyfc/Projects/test_cocos_project/project.json /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/project.json
+s429086337.105896
+e429086337.130891
+r1
+xCpResource
+x/Users/kerbyfc/Projects/test_cocos_project/project.json
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/project.json
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Copy /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/project.json197"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/project.json [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/project.json[0mf8381b815693b941^518321815693b941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project%20Mac.app/Contents/Resources/project.json0034a8dddcffdf42^554"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/project.json [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/project.json[0m    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kerbyfc/Projects/test_cocos_project/project.json /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources36"F82DD69D-2AFA-4F5F-BEAE-ECECE3D4ABE0-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CCpResource /Users/kerbyfc/Projects/test_cocos_project/res /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/res
+s429086337.106178
+e429086337.134627
+r1
+xCpResource
+x/Users/kerbyfc/Projects/test_cocos_project/res
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/res
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/res179"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/res [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/res[0m024a1b815693b941^e67722815693b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project%20Mac.app/Contents/Resources/res0034a8dddcffdf42^527"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/res [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/res[0m    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kerbyfc/Projects/test_cocos_project/res /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources36"D8D657A5-CC8E-405B-B60A-643FB033AE1E-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CCpResource /Users/kerbyfc/Projects/test_cocos_project/src /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/src
+s429086337.106954
+e429086337.131594
+r1
+xCpResource
+x/Users/kerbyfc/Projects/test_cocos_project/src
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/src
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/src179"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/src [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/src[0mb9711b815693b941^deb021815693b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project%20Mac.app/Contents/Resources/src0034a8dddcffdf42^527"[1mCpResource[0m /Users/kerbyfc/Projects/test_cocos_project/src [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/src[0m    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kerbyfc/Projects/test_cocos_project/src /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources36"9ED620A9-6853-4D26-B91E-32ED9183CE49-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CCpResource mac/Icon.icns /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/Icon.icns
+s429086337.106689
+e429086337.142382
+r1
+xCpResource
+xmac/Icon.icns
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/Icon.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Copy /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Resources/Icon.icns152"[1mCpResource[0m mac/Icon.icns [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/Icon.icns[0m556d1b815693b941^327424815693b941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project%20Mac.app/Contents/Resources/Icon.icns0034a8dddcffdf42^546"[1mCpResource[0m mac/Icon.icns [1m/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources/Icon.icns[0m    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Icon.icns /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Resources36"50B388AA-AF83-4F6B-88A4-E4F15F35AF56-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CLd /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/MacOS/test_cocos_project\ Mac normal x86_64
+s429086335.080968
+e429086337.105122
+r1
+xLd
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/MacOS/test_cocos_project Mac
+xnormal
+xx86_64
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project Mac.build/Objects-normal/x86_64/test_cocos_project Mac.LinkFileList
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project Mac.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project Mac.build/Objects-normal/x86_64/main.o
+d/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libjsbindings Mac.a
+d/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk Mac.a
+d/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx Mac.a
+d/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions Mac.a
+d/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion Mac.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+old: warning: direct access in ScriptingCore::getInstance() to global weak symbol ScriptingCore::getInstance()::pInstance means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in ScriptingCore::getInstance() to global weak symbol ScriptingCore::getInstance()::pInstance means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in ScriptingCore::getInstance() to global weak symbol ScriptingCore::getInstance()::pInstance means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::EventListenerPhysicsContact::onEvent(cocos2d::EventCustom*) to global weak symbol typeinfo for cocos2d::EventCustom means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::Repeat::initWithAction(cocos2d::FiniteTimeAction*, unsigned int) to global weak symbol typeinfo for cocos2d::FiniteTimeAction means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::__Array::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::__Array::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocosbuilder::CCBAnimationManager::actionForCallbackChannel(cocosbuilder::CCBSequenceProperty*) to global weak symbol typeinfo for cocosbuilder::CCBSelectorResolver means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocosbuilder::CCBReader::readNodeGraph(cocos2d::Node*) to global weak symbol typeinfo for cocosbuilder::CCBMemberVariableAssigner means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocosbuilder::CCBReader::readNodeGraph(cocos2d::Node*) to global weak symbol typeinfo for cocosbuilder::CCBMemberVariableAssigner means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocosbuilder::NodeLoader::parsePropTypeBlock(cocos2d::Node*, cocos2d::Node*, cocosbuilder::CCBReader*) to global weak symbol typeinfo for cocosbuilder::CCBSelectorResolver means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocosbuilder::NodeLoader::parsePropTypeBlockControl(cocos2d::Node*, cocos2d::Node*, cocosbuilder::CCBReader*) to global weak symbol typeinfo for cocosbuilder::CCBSelectorResolver means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Bool means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Integer means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Float means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Double means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Bool means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Integer means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Float means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Double means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::extension::EventListenerAssetsManager::init(cocos2d::extension::AssetsManager const*, std::__1::function<void (cocos2d::extension::EventAssetsManager*)> const&)::$_0::operator()(cocos2d::EventCustom*) const to global weak symbol typeinfo for cocos2d::extension::EventAssetsManager means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+old: warning: direct access in cocos2d::extension::EventListenerAssetsManager::init(cocos2d::extension::AssetsManager const*, std::__1::function<void (cocos2d::extension::EventAssetsManager*)> const&)::$_0::operator()(cocos2d::EventCustom*) const to global weak symbol typeinfo for cocos2d::EventCustom means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/MacOS/test_cocos_project Mac146"[1mLd[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/MacOS/test_cocos_project\ Mac normal x86_64ddd0147f5693b941^7d3d1b815693b941^-8197"ld: warning: direct access in ScriptingCore::getInstance() to global weak symbol ScriptingCore::getInstance()::pInstance means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in ScriptingCore::getInstance() to global weak symbol ScriptingCore::getInstance()::pInstance means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in ScriptingCore::getInstance() to global weak symbol ScriptingCore::getInstance()::pInstance means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::EventListenerPhysicsContact::onEvent(cocos2d::EventCustom*) to global weak symbol typeinfo for cocos2d::EventCustom means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::Repeat::initWithAction(cocos2d::FiniteTimeAction*, unsigned int) to global weak symbol typeinfo for cocos2d::FiniteTimeAction means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::__Array::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::__Array::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocosbuilder::CCBAnimationManager::actionForCallbackChannel(cocosbuilder::CCBSequenceProperty*) to global weak symbol typeinfo for cocosbuilder::CCBSelectorResolver means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocosbuilder::CCBReader::readNodeGraph(cocos2d::Node*) to global weak symbol typeinfo for cocosbuilder::CCBMemberVariableAssigner means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocosbuilder::CCBReader::readNodeGraph(cocos2d::Node*) to global weak symbol typeinfo for cocosbuilder::CCBMemberVariableAssigner means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocosbuilder::NodeLoader::parsePropTypeBlock(cocos2d::Node*, cocos2d::Node*, cocosbuilder::CCBReader*) to global weak symbol typeinfo for cocosbuilder::CCBSelectorResolver means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocosbuilder::NodeLoader::parsePropTypeBlockControl(cocos2d::Node*, cocos2d::Node*, cocosbuilder::CCBReader*) to global weak symbol typeinfo for cocosbuilder::CCBSelectorResolver means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Bool means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Integer means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Float means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Double means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Bool means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Integer means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Float means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Double means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::extension::EventListenerAssetsManager::init(cocos2d::extension::AssetsManager const*, std::__1::function<void (cocos2d::extension::EventAssetsManager*)> const&)::$_0::operator()(cocos2d::EventCustom*) const to global weak symbol typeinfo for cocos2d::extension::EventAssetsManager means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.ld: warning: direct access in cocos2d::extension::EventListenerAssetsManager::init(cocos2d::extension::AssetsManager const*, std::__1::function<void (cocos2d::extension::EventAssetsManager*)> const&)::$_0::operator()(cocos2d::EventCustom*) const to global weak symbol typeinfo for cocos2d::EventCustom means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.26(21%IDEActivityLogMessage2@267"Direct access in ScriptingCore::getInstance() to global weak symbol ScriptingCore::getInstance()::pInstance means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#0#281#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@267"Direct access in ScriptingCore::getInstance() to global weak symbol ScriptingCore::getInstance()::pInstance means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#281#281#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@267"Direct access in ScriptingCore::getInstance() to global weak symbol ScriptingCore::getInstance()::pInstance means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#562#281#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@301"Direct access in cocos2d::EventListenerPhysicsContact::onEvent(cocos2d::EventCustom*) to global weak symbol typeinfo for cocos2d::EventCustom means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#843#315#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@311"Direct access in cocos2d::Repeat::initWithAction(cocos2d::FiniteTimeAction*, unsigned int) to global weak symbol typeinfo for cocos2d::FiniteTimeAction means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#1158#325#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@261"Direct access in cocos2d::__Array::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#1483#275#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@261"Direct access in cocos2d::__Array::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#1758#275#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@341"Direct access in cocosbuilder::CCBAnimationManager::actionForCallbackChannel(cocosbuilder::CCBSequenceProperty*) to global weak symbol typeinfo for cocosbuilder::CCBSelectorResolver means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#2033#355#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@306"Direct access in cocosbuilder::CCBReader::readNodeGraph(cocos2d::Node*) to global weak symbol typeinfo for cocosbuilder::CCBMemberVariableAssigner means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#2388#320#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@306"Direct access in cocosbuilder::CCBReader::readNodeGraph(cocos2d::Node*) to global weak symbol typeinfo for cocosbuilder::CCBMemberVariableAssigner means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#2708#320#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@348"Direct access in cocosbuilder::NodeLoader::parsePropTypeBlock(cocos2d::Node*, cocos2d::Node*, cocosbuilder::CCBReader*) to global weak symbol typeinfo for cocosbuilder::CCBSelectorResolver means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#3028#362#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@355"Direct access in cocosbuilder::NodeLoader::parsePropTypeBlockControl(cocos2d::Node*, cocos2d::Node*, cocosbuilder::CCBReader*) to global weak symbol typeinfo for cocosbuilder::CCBSelectorResolver means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#3390#369#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@285"Direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Bool means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#3759#299#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@288"Direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Integer means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#4058#302#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@286"Direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Float means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#4360#300#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@287"Direct access in cocos2d::ccdictionary_to_valuemap(cocos2d::__Dictionary*) to global weak symbol typeinfo for cocos2d::__Double means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#4660#301#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@266"Direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#4961#280#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@266"Direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#5241#280#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@266"Direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#5521#280#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@266"Direct access in cocos2d::__Dictionary::clone() const to global weak symbol typeinfo for cocos2d::Clonable means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#5801#280#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@278"Direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Bool means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#6081#292#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@281"Direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Integer means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#6373#295#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@279"Direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Float means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#6668#293#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@280"Direct access in cocos2d::ccarray_to_valuevector(cocos2d::__Array*) to global weak symbol typeinfo for cocos2d::__Double means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#6961#294#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@466"Direct access in cocos2d::extension::EventListenerAssetsManager::init(cocos2d::extension::AssetsManager const*, std::__1::function<void (cocos2d::extension::EventAssetsManager*)> const&)::$_0::operator()(cocos2d::EventCustom*) const to global weak symbol typeinfo for cocos2d::extension::EventAssetsManager means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#7255#480#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--2@448"Direct access in cocos2d::extension::EventListenerAssetsManager::init(cocos2d::extension::AssetsManager const*, std::__1::function<void (cocos2d::extension::EventAssetsManager*)> const&)::$_0::operator()(cocos2d::EventCustom*) const to global weak symbol typeinfo for cocos2d::EventCustom means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429086336#7735#462#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#1#--1833"[1mLd[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/MacOS/test_cocos_project\ Mac normal x86_64    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/test_cocos_project\ Mac.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libjsbindings\ Mac.a /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx\ Mac.a /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a -lcurl -lsqlite3 -lz -framework IOKit -framework AppKit -framework OpenGL -framework QuartzCore -framework OpenAL -framework AudioToolbox -framework AVFoundation -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/Objects-normal/x86_64/test_cocos_project\ Mac_dependency_info.dat -o /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/MacOS/test_cocos_project\ Mac36"A46436FE-E772-4479-9A46-3786D34ABBEB-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CProcessInfoPlistFile /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Info.plist /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Info.plist
+s429086332.980593
+e429086332.984630
+r1
+xProcessInfoPlistFile
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app/Contents/Info.plist
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Process /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Info.plist154"[1mProcessInfoPlistFile[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Info.plist [1mmac/Info.plist[0m6859fb7c5693b941^3c11fc7c5693b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Info.plist0000000000000000^620"[1mProcessInfoPlistFile[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Info.plist [1mmac/Info.plist[0m    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    builtin-infoPlistUtility /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Info.plist -genpkginfo /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app/Contents/Info.plist36"056F88EA-DB38-448D-9698-89B9E490B4CD-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CProcessPCH++ /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s429086332.985244
+e429086332.998095
+r1
+xProcessPCH++
+x/var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch.pch
+xmac/Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Precompile mac/Prefix.pch264"[1mProcessPCH++[0m /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5854fc7c5693b941^1284ff7c5693b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Prefix.pch0000000000000000^5068"[1mProcessPCH++[0m /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCOCOS2D_JAVASCRIPT -DCC_ENABLE_CHIPMUNK_INTEGRATION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/test_cocos_project\ Mac.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/base -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/physics -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/math/kazmath -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/2d -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/gui -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/network -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/audio/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/extensions -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/auto -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/bindings/manual -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/cocos/platform/mac -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/cocos2d-x/external/glfw3/include/mac -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/../../js-bindings/external/spidermonkey/include/mac -I/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/DerivedSources/x86_64 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/build/test_cocos_project.build/Debug/test_cocos_project\ Mac.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac --serialize-diagnostics /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch.d -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac/mac/Prefix.pch -o /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-dlavjnmujugptyavfrrektfwocjv/Prefix.pch.pch36"46E82D2E-C3CD-4EEF-8C81-9081FA8A9A9C-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+
+CTouch /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app
+s429086337.148501
+e429086337.153860
+r1
+xTouch
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project Mac.app96"[1mTouch[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app401626815693b941^f56327815693b941^---0#0#1#--288"[1mTouch[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.ios_mac    /usr/bin/touch -c /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/test_cocos_project\ Mac.app36"36EE09C3-1BEF-49EB-A0DF-8A616D6A8FCD-
+b3F24375C-DCE3-4CA7-8DB6-E2AB3563A232
+

@@ -1,0 +1,358 @@
+TCocosDenshion iOS
+v6
+r1
+cCheck dependencies
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDAudioManager.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CocosDenshion.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDOpenALSupport.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libCocosDenshion\ iOS.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005311A6CC00000000000003B4
+t1393665740
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005311A6D8000000000000019E
+t1393665752
+s414
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.o
+t1407393921
+s91588
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.o
+t1407393921
+s14484
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion iOS.LinkFileList
+c0000000053E3208000000000000003C1
+t1407393920
+s961
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.o
+t1407393921
+s124936
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.o
+t1407393922
+s72404
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o
+t1407393921
+s36464
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m
+c0000000053E318C8000000000000787A
+t1407391944
+s30842
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m
+c0000000053E318C80000000000002AA4
+t1407391944
+s10916
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m
+c0000000053E318C8000000000000CE44
+t1407391944
+s52804
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm
+c0000000053E318C80000000000001DF3
+t1407391944
+s7667
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m
+c0000000053E318C80000000000001663
+t1407391944
+s5731
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libCocosDenshion iOS.a
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2dccce005893b941^2d5bcf005893b941^---0#1#1#--18"Check dependencies36"FC9D1885-CCE3-4FEB-B9F4-33105070BE32-
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDAudioManager.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429086720.810470
+e429086721.160766
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDAudioManager.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m310"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDAudioManager.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerddb6cf005893b941^6b2829015893b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m0000000000000000^5535"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDAudioManager.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@face/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@global/bin:/Users/kerbyfc/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.kdr/bin:/Users/kerbyfc/.kdr/bin/kdr:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.conductance/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/ios -I/Users/kerbyfc/Projects/test_cocos_project/runtime/ios/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/i386 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/ios -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDAudioManager.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDAudioManager.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.m -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDAudioManager.o36"44E83957-B934-4FAD-8141-28CB6FF3E2A6-
+bD1ED5121-9C79-43A5-99C1-62F79D36D465
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDOpenALSupport.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429086720.811702
+e429086721.024065
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CDOpenALSupport.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDConfig.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m312"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDOpenALSupport.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0c05d0005893b941^172b06015893b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m0000000000000000^5541"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDOpenALSupport.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@face/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@global/bin:/Users/kerbyfc/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.kdr/bin:/Users/kerbyfc/.kdr/bin/kdr:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.conductance/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/ios -I/Users/kerbyfc/Projects/test_cocos_project/runtime/ios/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/i386 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/ios -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDOpenALSupport.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDOpenALSupport.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.m -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CDOpenALSupport.o36"3EC4AF24-4E42-4D83-B853-2F5901814E8D-
+bD1ED5121-9C79-43A5-99C1-62F79D36D465
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CocosDenshion.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429086720.810683
+e429086721.123220
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/CocosDenshion.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m308"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CocosDenshion.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2db0cf005893b941^a48d1f015893b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m0000000000000000^5529"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CocosDenshion.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@face/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@global/bin:/Users/kerbyfc/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.kdr/bin:/Users/kerbyfc/.kdr/bin/kdr:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.conductance/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/ios -I/Users/kerbyfc/Projects/test_cocos_project/runtime/ios/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/i386 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/ios -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CocosDenshion.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CocosDenshion.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.m -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CocosDenshion.o36"2E67D768-6409-449F-A2DB-41AC47A79636-
+bD1ED5121-9C79-43A5-99C1-62F79D36D465
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s429086720.811033
+e429086722.408391
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/SimpleAudioEngine.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/Export.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/cocos2d.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCPlatformConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCRef.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCPlatformMacros.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/ios/CCPlatformDefine.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCRefPtr.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccMacros.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCConsole.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/ios/CCStdC.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCVector.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCMap.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCAutoreleasePool.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCNS.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCGeometry.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCMath.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec2.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCMathBase.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec2.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec3.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec3.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Mat4.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec4.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec4.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Mat4.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Quaternion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Quaternion.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCData.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCValue.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccTypes.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/ios/CCGL.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCConfiguration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCDirector.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabelAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAtlasNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventDispatcher.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListener.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEvent.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCScriptSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCCommon.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCTouch.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventTouch.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventKeyboard.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCProtocols.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCTexture2D.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCAffineTransform.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccGLStateCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCQuadCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCRenderCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGLProgramState.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCRenderCommandPool.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCScheduler.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/uthash.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/base64.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ZipUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCProfiling.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccUTF8.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCUserDefault.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCIMEDelegate.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCIMEDispatcher.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventType.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerTouch.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerKeyboard.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerMouse.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventMouse.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventAcceleration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerAcceleration.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventCustom.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerCustom.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventFocus.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCEventListenerFocus.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/MathUtil.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/MathUtil.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCVertex.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAction.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionInterval.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSpriteFrame.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAnimation.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionCamera.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionEase.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionPageTurn3D.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionGrid3D.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionInstant.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionProgressTimer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionTiledGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionTween.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCActionCatmullRom.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTweenFunction.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCDrawingPrimitives.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCDrawNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCCustomCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabelTTF.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabelBMFont.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLabel.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSpriteBatchNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCTextureAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCBatchCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGLProgram.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCFontAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCFontFNT.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCFont.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCLayer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsWorld.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCScene.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTransition.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTransitionPageTurn.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTransitionProgress.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCMenu.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCMenuItem.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCClippingNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGroupCommand.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCMotionStreak.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCProgressTimer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSprite.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsBody.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsShape.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCRenderTexture.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCImage.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCNodeGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleBatchNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleSystem.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCString.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCArray.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccCArray.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCDataVisitor.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleExamples.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParticleSystemQuad.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCGrabber.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCGrid.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCRenderer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCGLProgramCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShaders.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/CCTextureCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsContact.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/physics/CCPhysicsJoint.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCDevice.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCFileUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCSAXParser.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCThread.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/ios/CCApplication.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCApplicationProtocol.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/ios/CCGLView.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCGLViewProtocol.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCAnimationCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCSpriteFrameCache.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTextFieldTTF.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCParallaxNode.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXLayer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXObjectGroup.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXXMLParser.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTMXTiledMap.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCTileMapAtlas.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCComponent.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/2d/CCComponentContainer.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCDictionary.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCSet.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCInteger.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCFloat.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCDouble.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCBool.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCNotificationCenter.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/deprecated/CCDeprecated.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm319"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm[0m normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerb3d3cf005893b941^bd8e68025893b941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm0000000000000000^5631"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm[0m normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@face/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@global/bin:/Users/kerbyfc/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.kdr/bin:/Users/kerbyfc/.kdr/bin/kdr:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.conductance/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wnon-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/ios -I/Users/kerbyfc/Projects/test_cocos_project/runtime/ios/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/i386 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/ios -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine.mm -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine.o36"2EE00EAF-959A-42B4-AAA9-8DC334EA9295-
+bD1ED5121-9C79-43A5-99C1-62F79D36D465
+
+CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429086720.811329
+e429086721.123491
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDAudioManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m326"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc0ebcf005893b941^bdc51f015893b941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m0000000000000000^5583"[1mCompileC[0m build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@face/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@global/bin:/Users/kerbyfc/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.kdr/bin:/Users/kerbyfc/.kdr/bin/kdr:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.conductance/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCOCOS2D_DEBUG=1 -DUSE_FILE32API -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -DCC_TARGET_OS_IPHONE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1.1 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/CocosDenshion\ iOS.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/ios -I/Users/kerbyfc/Projects/test_cocos_project/runtime/ios/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources/i386 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/ios -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/ios/SimpleAudioEngine_objc.m -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/SimpleAudioEngine_objc.o36"A992A330-CE3D-474E-846B-318C2E1323A4-
+bD1ED5121-9C79-43A5-99C1-62F79D36D465
+
+CLibtool /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libCocosDenshion\ iOS.a normal i386
+s429086722.409382
+e429086722.417462
+r1
+xLibtool
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libCocosDenshion iOS.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libCocosDenshion\ iOS.a normal i386106"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libCocosDenshion\ iOS.a normal i3862cf568025893b941^83df6a025893b941^---0#0#1#--2573"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libCocosDenshion\ iOS.a normal i386    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export IPHONEOS_DEPLOYMENT_TARGET=5.1.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Users/kerbyfc/Development/android-sdk-macosx//tools:/Users/kerbyfc/Development/android-sdk-macosx//platform-tools:/Users/kerbyfc/Development/android-sdk-macosx/:/Users/kerbyfc/Development/android-ndk-r10:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@face/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@global/bin:/Users/kerbyfc/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.kdr/bin:/Users/kerbyfc/.kdr/bin/kdr:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.conductance/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/ios -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/CocosDenshion\ iOS.build/Objects-normal/i386/CocosDenshion\ iOS.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libCocosDenshion\ iOS.a36"38AEA3FD-BC7C-4CC5-B089-0A59414168E3-
+bD1ED5121-9C79-43A5-99C1-62F79D36D465
+

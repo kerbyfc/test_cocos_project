@@ -1,0 +1,251 @@
+TCocosDenshion Mac
+v6
+r1
+cCheck dependencies
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000530295C100000000000000AA
+t1392678337
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005311A664000000000000044C
+t1393665636
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005311A66400000000000001DE
+t1393665636
+s478
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o
+t1407393532
+s104132
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o
+t1407393532
+s14688
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o
+t1407393532
+s51276
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion Mac.LinkFileList
+c0000000053E31EFB000000000000042D
+t1407393531
+s1069
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o
+t1407393532
+s143920
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o
+t1407393532
+s73876
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+t1407393532
+s43948
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m
+c0000000053E318C8000000000000780D
+t1407391944
+s30733
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m
+c0000000053E318C80000000000002AA4
+t1407391944
+s10916
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm
+c0000000053E318C80000000000001446
+t1407391944
+s5190
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m
+c0000000053E318C8000000000000CEC6
+t1407391944
+s52934
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm
+c0000000053E318C80000000000001DF3
+t1407391944
+s7667
+
+N/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m
+c0000000053E318C80000000000001663
+t1407391944
+s5731
+
+N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion Mac.a
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1780c27b5693b941^342bc37b5693b941^---0#1#1#--18"Check dependencies36"BDEB1576-3E26-49DA-AE4D-8A7530926B0C-
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429086331.764813
+e429086332.360514
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m298"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd509c47b5693b941^8c4c5c7c5693b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m0000000000000000^3556"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/mac -I/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o36"1EB514DC-4CF3-462D-9F7D-E968F7B74818-
+bFB921466-2C20-4CD9-B227-1096AD65D4E0
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429086331.765506
+e429086332.313987
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDConfig.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m300"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0b28c47b5693b941^0b62507c5693b941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m0000000000000000^3562"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/mac -I/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.m -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o36"D009011B-BD59-4330-AE56-459BCEDD2192-
+bFB921466-2C20-4CD9-B227-1096AD65D4E0
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s429086331.763242
+e429086332.541673
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/SimpleAudioEngine.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/Export.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm305"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler0d8dc37b5693b941^71ad8a7c5693b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm0000000000000000^3646"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wnon-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/mac -I/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.mm -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o36"B59DE908-21A0-4757-9885-0FD25404AA1A-
+bFB921466-2C20-4CD9-B227-1096AD65D4E0
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429086331.764164
+e429086332.430446
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m296"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4eeec37b5693b941^ce336e7c5693b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m0000000000000000^3550"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/mac -I/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.m -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o36"63215FE7-9E87-46D2-976D-95F12FA01A25-
+bFB921466-2C20-4CD9-B227-1096AD65D4E0
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s429086331.763541
+e429086332.965030
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/SimpleAudioEngine.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/include/Export.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/CCFileUtils.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCPlatformMacros.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCPlatformConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCPlatformDefine.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccTypes.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCGeometry.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/ccMacros.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCConsole.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCStdC.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCMath.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec2.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/CCMathBase.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec2.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec3.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec3.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Mat4.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec4.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Vec4.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Mat4.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Quaternion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/math/Quaternion.inl
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/platform/mac/CCGL.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCValue.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/base/CCData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm307"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler4ca9c37b5693b941^060ff77c5693b941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm0000000000000000^3652"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wnon-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/mac -I/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine.mm -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o36"2D9D9387-0E38-4A37-9494-23975FBCBF38-
+bFB921466-2C20-4CD9-B227-1096AD65D4E0
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429086331.762966
+e429086332.348325
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+x/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CocosDenshion.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDConfig.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDOpenALSupport.h
+d/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDXMacOSXSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m314"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4774c37b5693b941^412e597c5693b941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m0000000000000000^3604"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o [1m/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=208 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/.. -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/editor-support -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external/chipmunk/include/chipmunk -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../external -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/mac -I/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/include -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -MMD -MT dependencies -MF /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.d --serialize-diagnostics /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.dia -c /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/SimpleAudioEngine_objc.m -o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o36"180968AC-BB5D-43C7-BC19-20B5390A32DE-
+bFB921466-2C20-4CD9-B227-1096AD65D4E0
+
+CLibtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64
+s429086332.965803
+e429086332.974767
+r1
+xLibtool
+x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion Mac.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64108"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64425af77c5693b941^508bf97c5693b941^---0#0#1#--816"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion\ Mac.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a36"4A15D8B4-C1F1-4992-9193-B9182DB9BBD5-
+bFB921466-2C20-4CD9-B227-1096AD65D4E0
+

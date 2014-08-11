@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShaders.cpp \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/renderer/ccShaders.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/ios/CCGL.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/CCPlatformConfig.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/CCPlatformMacros.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/base/ccConfig.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/../cocos/platform/ios/CCPlatformDefine.h \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_Position_uColor.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_Position_uColor.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionColor.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionColor.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTexture.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTexture.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTextureA8Color.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTextureA8Color.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTextureColor.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTextureColor.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTextureColor_noMVP.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTextureColor_noMVP.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTextureColorAlphaTest.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTexture_uColor.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionTexture_uColor.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionColorLengthTexture.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_PositionColorLengthTexture.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_Label.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_Label_df.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_Label_df_glow.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_Label_normal.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_Label_outline.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_3D_PositionTex.vert \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_3D_Color.frag \
+  /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/renderer/ccShader_3D_ColorTex.frag

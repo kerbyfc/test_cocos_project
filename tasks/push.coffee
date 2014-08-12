@@ -6,14 +6,16 @@ module.exports = ->
 
   if commit= grunt.file.read '.commit'
 
-    exec "git add -A && git commit -m '#{commit}'", (err) ->
+    exec "git add -A && git commit -m '#{commit}' && git push", (err, out) ->
+      sys.print out
       if err?
         grunt.fail.fatal err
 
       if grunt.file.exists '.tag'
         tag = grunt.file.read '.tag'
 
-        exec "git tag #{tag} && git push --tags", (err) ->
+        exec "git tag #{tag} && git push --tags", (err, out) ->
+          sys.print out
           if err?
             grunt.fail.fatal err
           grunt.file.delete '.tag'

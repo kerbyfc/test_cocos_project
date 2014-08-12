@@ -38,7 +38,8 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
 
-  grunt.registerTask 'package', require('./tasks/package.coffee')
+  for file in grunt.file.expand {cwd: 'tasks'}, '*.coffee'
+    grunt.registerTask file.replace(/\.coffee$/, ''), require("./tasks/#{file}")
 
   grunt.registerTask 'default', [
     'coffee',

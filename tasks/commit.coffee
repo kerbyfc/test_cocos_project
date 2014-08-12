@@ -12,6 +12,8 @@ module.exports = ->
   if _.indexOf(message, "%") > 1
     [message, changes] = message.split('%')
 
+  message = message.replace(tails, '')
+
   # UP VERSION -----------------------------------------
   build = grunt.file.readJSON('package.json')
   version = _.zipObject ['major', 'minor', 'revision'], _.map(build.version.split('.'), (e) -> parseInt(e))
@@ -23,7 +25,7 @@ module.exports = ->
     grunt.file.write '.tag', build.version
 
   # write commit message for push task
-  grunt.file.write '.commit', message.replace(tails, '')
+  grunt.file.write '.commit', message
 
   # UPDATE CHANGELOG -----------------------------------
   if changes

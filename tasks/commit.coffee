@@ -15,8 +15,12 @@ module.exports = ->
   # UP VERSION -----------------------------------------
   build = grunt.file.readJSON('package.json')
   version = _.zipObject ['major', 'minor', 'revision'], _.map(build.version.split('.'), (e) -> parseInt(e))
-  version[grunt.config('type') || 'revision'] += 1
+  type = grunt.config('type') || 'revision'
+  version[type] += 1
   build.version = _.values(version).join('.')
+
+  if type isnt 'revision'
+    grunt.file.write '.tag', build.version
 
   # write commit message for push task
   grunt.file.write '.commit', message.replace(tails, '')

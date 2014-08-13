@@ -1,13 +1,18 @@
 {
   "project_type": "javascript",
   "debugMode": 1,
+  "description": "cocos2d-js test project",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/kerbyfc/test_cocos_project"
+  },
   "showFPS": true,
   "frameRate": 60,
   "id": "gameCanvas",
   "renderMode": 0,
   "engineDir": "frameworks/cocos2d-html5",
   "modules": [
-    "cocos2d"
+    "cocos2d", "chipmunk"
   ],
   "jsList": [
     "src/res.js",

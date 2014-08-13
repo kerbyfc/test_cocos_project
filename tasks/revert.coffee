@@ -1,23 +1,37 @@
 grunt = require 'grunt'
-sys = require('sys')
-exec = require('child_process').exec
 
 module.exports = ->
 
-  current = grunt.file.readJSON 'package.json'
+  curr = grunt.file.readJSON 'package.json'
 
-  exec 'git checkout -f package.json', (err, out) ->
-    sys.print out
-    if err?
-      grunt.fail.fatal err
+  grunt.initConfig
 
-    # REWRITE CHANGELOG
-    exec 'git checkout -f CHANGELOG.md', (err, out) ->
-      sys.print out
-      if err?
-        grunt.fail.fatal err
+    shell:
 
-      # DOWN VERSION
-      last = grunt.file.readJSON 'package.json'
-      current.version = last.version
-      grunt.file.write 'package.json', current
+      gco_package:
+        command: 'git checkout -f package.json'
+
+        options:
+          callback: (error, stdout, stderr, done) ->
+            if error?
+              grunt.fail.fatal error
+
+            grunt.task.run 'shell:gco_changelog'
+            done()
+
+      gco_changelog:
+        command: 'git checkout -f CHANGELOG.md'
+
+        options:
+          callback: (error, stdout, stderr, done) ->
+            if error?
+              grunt.fail.fatal error
+
+            last = grunt.file.readJSON 'package.json'
+            grunt.log.ok "revert version from #{curr.version} to #{last.version}"
+            curr.version = last.version
+
+            grunt.file.write 'package.json', JSON.stringify(curr, null, 2)
+            done()
+
+  grunt.task.run 'shell:gco_package'

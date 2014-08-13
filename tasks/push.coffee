@@ -4,22 +4,37 @@ exec = require('child_process').exec
 
 module.exports = ->
 
-  if commit= grunt.file.read '.commit'
+  commit= grunt.file.read '.commit'
+  tag = grunt.file.read '.tag'
 
-    exec "git add -A && git commit -m '#{commit}' && git push", (err, out) ->
-      sys.print out
-      if err?
-        grunt.fail.fatal err
+  if commit
 
-      if grunt.file.exists '.tag'
-        tag = grunt.file.read '.tag'
+    grunt.initConfig
 
-        exec "git tag #{tag} && git push --tags", (err, out) ->
-          sys.print out
-          if err?
-            grunt.fail.fatal err
-          grunt.file.delete '.tag'
+      shell:
+        push:
+          command: "git add -A && git commit -m '#{commit}' && git push"
 
-  else
-    grunt.fail.warn 'ensure .commit file exists'
+          options:
+            callback: (error, stdout, stderr, done) ->
+              if error?
+                grunt.fail.fatal error
 
+              grunt.file.delete '.commit'
+
+              if tag
+                grunt.task.run 'shell:tag'
+              done()
+
+        tag:
+          command: "git tag #{tag} && git push --tags"
+
+          options:
+            callback: (error, stdout, stderr, done) ->
+              if error?
+                grunt.fail.fatal error
+
+              grunt.file.delete '.tag'
+              done()
+
+  grunt.task.run 'shell:push'

@@ -16,10 +16,25 @@ module.exports = ->
 
   # UP VERSION -----------------------------------------
   build = grunt.file.readJSON('package.json')
-  version = _.zipObject ['major', 'minor', 'revision'], _.map(build.version.split('.'), (e) -> parseInt(e))
-  type = grunt.config('type') || 'revision'
-  version[type] += 1
-  build.version = _.values(version).join('.')
+
+  types = ['major', 'minor', 'revision']
+  type = grunt.option('type') || 'revision'
+
+  unless type in types
+    grunt.fail.fatal "unknown version type #{type}"
+
+  version = _.map build.version.split('.'), (e) ->
+    parseInt(e)
+
+  type_index = _.indexOf types, type
+  version[type_index] += 1
+
+  for i in [(type_index+1)...types.length]
+    version[i] = 0
+
+  build.version = version.join '.'
+
+  grunt.log.ok "bump #{type} version to #{build.version}"
 
   if type isnt 'revision'
     grunt.file.write '.tag', build.version

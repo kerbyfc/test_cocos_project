@@ -1,3 +1,8 @@
+### 0.2.0
+  **concat vendor scripts to main.js**
+  - add boot.js with initial code
+  - add grunt concat task and make a part of default task
+
 ### 0.1.2
   **add push task**
   - push task will exec git pushing and tagging stack

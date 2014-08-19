@@ -1,0 +1,398 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.16
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json test_cococ_project@0.2.0 No description
+6 warn package.json test_cococ_project@0.2.0 No repository field.
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/kerbyfc/Projects/test_cocos_project',
+8 verbose install   [ 'grunt',
+8 verbose install     'grunt-contrib-coffee',
+8 verbose install     'grunt-contrib-concat',
+8 verbose install     'grunt-contrib-watch',
+8 verbose install     'grunt-spritesmith',
+8 verbose install     'grunt-imagemagick',
+8 verbose install     'grunt-shell' ] ]
+9 info preinstall test_cococ_project@0.2.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping grunt-contrib-concat@^0.5.0 /Users/kerbyfc/Projects/test_cocos_project
+12 verbose already installed skipping grunt@^0.4.5 /Users/kerbyfc/Projects/test_cocos_project
+13 verbose already installed skipping grunt-contrib-coffee@^0.10.1 /Users/kerbyfc/Projects/test_cocos_project
+14 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/kerbyfc/Projects/test_cocos_project
+15 verbose already installed skipping grunt-spritesmith@^2.1.1 /Users/kerbyfc/Projects/test_cocos_project
+16 verbose cache add [ 'grunt-imagemagick@^0.1.5', null ]
+17 verbose cache add name=undefined spec="grunt-imagemagick@^0.1.5" args=["grunt-imagemagick@^0.1.5",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'grunt-imagemagick@^0.1.5',
+18 verbose parsed url   path: 'grunt-imagemagick@^0.1.5',
+18 verbose parsed url   href: 'grunt-imagemagick@^0.1.5' }
+19 verbose already installed skipping grunt-shell@^0.7.0 /Users/kerbyfc/Projects/test_cocos_project
+20 verbose cache add name="grunt-imagemagick" spec="^0.1.5" args=["grunt-imagemagick","^0.1.5"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^0.1.5',
+21 verbose parsed url   path: '^0.1.5',
+21 verbose parsed url   href: '^0.1.5' }
+22 verbose addNamed [ 'grunt-imagemagick', '^0.1.5' ]
+23 verbose addNamed [ null, '>=0.1.5-0 <0.2.0-0' ]
+24 silly lockFile 47cb505e-grunt-imagemagick-0-1-5 grunt-imagemagick@^0.1.5
+25 verbose lock grunt-imagemagick@^0.1.5 /Users/kerbyfc/.npm/47cb505e-grunt-imagemagick-0-1-5.lock
+26 silly addNameRange { name: 'grunt-imagemagick',
+26 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+26 silly addNameRange   hasData: false }
+27 verbose request where is /grunt-imagemagick
+28 verbose request registry https://registry.npmjs.org/
+29 verbose request id 412069f6b9ba36ba
+30 verbose url raw /grunt-imagemagick
+31 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-imagemagick' ]
+32 verbose url resolved https://registry.npmjs.org/grunt-imagemagick
+33 verbose request where is https://registry.npmjs.org/grunt-imagemagick
+34 info trying registry request attempt 1 at 13:11:00
+35 http GET https://registry.npmjs.org/grunt-imagemagick
+36 http 200 https://registry.npmjs.org/grunt-imagemagick
+37 silly registry.get cb [ 200,
+37 silly registry.get   { date: 'Fri, 15 Aug 2014 09:11:01 GMT',
+37 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+37 silly registry.get     etag: '"9R9XHOOO829JHYX00VYCR22JH"',
+37 silly registry.get     'content-type': 'application/json',
+37 silly registry.get     'cache-control': 'max-age=60',
+37 silly registry.get     'content-length': '12163',
+37 silly registry.get     'accept-ranges': 'bytes',
+37 silly registry.get     via: '1.1 varnish',
+37 silly registry.get     age: '0',
+37 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+37 silly registry.get     'x-cache': 'MISS',
+37 silly registry.get     'x-cache-hits': '0',
+37 silly registry.get     'x-timer': 'S1408093861.182899,VS0,VE521',
+37 silly registry.get     vary: 'Accept',
+37 silly registry.get     'keep-alive': 'timeout=10, max=50',
+37 silly registry.get     connection: 'Keep-Alive' } ]
+38 silly addNameRange number 2 { name: 'grunt-imagemagick',
+38 silly addNameRange   range: '>=0.1.5-0 <0.2.0-0',
+38 silly addNameRange   hasData: true }
+39 silly addNameRange versions [ 'grunt-imagemagick', [ '0.1.2', '0.1.3', '0.1.4', '0.1.5' ] ]
+40 verbose addNamed [ 'grunt-imagemagick', '0.1.5' ]
+41 verbose addNamed [ '0.1.5', '0.1.5' ]
+42 silly lockFile f1ae4fda-grunt-imagemagick-0-1-5 grunt-imagemagick@0.1.5
+43 verbose lock grunt-imagemagick@0.1.5 /Users/kerbyfc/.npm/f1ae4fda-grunt-imagemagick-0-1-5.lock
+44 silly lockFile ac6af2a9-gick-grunt-imagemagick-0-1-5-tgz https://registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz
+45 verbose lock https://registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz /Users/kerbyfc/.npm/ac6af2a9-gick-grunt-imagemagick-0-1-5-tgz.lock
+46 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz',
+46 verbose addRemoteTarball   'd3df60d216b1ab905ae8ab85588ae532d38de54c' ]
+47 info retry fetch attempt 1 at 13:11:01
+48 verbose fetch to= /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/T/npm-29760-Zvq1sVfv/registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz
+49 http GET https://registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz
+50 http 200 https://registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz
+51 silly lockFile ac6af2a9-gick-grunt-imagemagick-0-1-5-tgz https://registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz
+52 silly lockFile ac6af2a9-gick-grunt-imagemagick-0-1-5-tgz https://registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz
+53 silly lockFile f1ae4fda-grunt-imagemagick-0-1-5 grunt-imagemagick@0.1.5
+54 silly lockFile f1ae4fda-grunt-imagemagick-0-1-5 grunt-imagemagick@0.1.5
+55 silly lockFile 47cb505e-grunt-imagemagick-0-1-5 grunt-imagemagick@^0.1.5
+56 silly lockFile 47cb505e-grunt-imagemagick-0-1-5 grunt-imagemagick@^0.1.5
+57 silly resolved [ { name: 'grunt-imagemagick',
+57 silly resolved     description: 'Adds utility tasks for grunt which use ImageMagick',
+57 silly resolved     version: '0.1.5',
+57 silly resolved     homepage: 'https://github.com/icagstrout/grunt-imagemagick',
+57 silly resolved     author: { name: 'Arne Strout', email: 'arne.strout@icrossing.com' },
+57 silly resolved     repository:
+57 silly resolved      { type: 'git',
+57 silly resolved        url: 'https://github.com/icagstrout/grunt-imagemagick.git' },
+57 silly resolved     bugs: { url: 'https://github.com/icagstrout/grunt-imagemagick/issues' },
+57 silly resolved     licenses: [ [Object] ],
+57 silly resolved     main: 'grunt.js',
+57 silly resolved     bin: { 'grunt-imagemagick': 'bin/grunt-imagemagick' },
+57 silly resolved     engines: { node: '*' },
+57 silly resolved     scripts: { test: 'grunt test' },
+57 silly resolved     devDependencies: { grunt: '~0.3.17' },
+57 silly resolved     dependencies: { fs: '', path: '>= 0.0.1', 'node-imagemagick': '' },
+57 silly resolved     keywords: [ 'gruntplugin' ],
+57 silly resolved     readme: '# grunt-imagemagick\n\nAdds utility tasks for grunt to access ImageMagick via the node_imagemagick package.\nYou will need to have image magick CLI tools installed as described in the node_imagemagick readme.\nsee [node-imagemagick](https://github.com/rsms/node-imagemagick)\n\n## Getting Started\nInstall this grunt plugin next to your project\'s [grunt.js gruntfile][getting_started] with: `npm install grunt-imagemagick`\n\nThen add this line to your project\'s `grunt.js` gruntfile:\n\n```javascript\ngrunt.loadNpmTasks(\'grunt-imagemagick\');\n```\n\n[grunt]: http://gruntjs.com/\n[getting_started]: https://github.com/gruntjs/grunt/blob/master/docs/getting_started.md\n\n## Documentation\n_Example Usage_\n```javascript\ngrunt.initConfig({\n\t"imagemagick-hisrc":{\n\t  dev:{\n\t    files:"**/*-2x.jpg",\n\t    suffix:["-2x","-1x","-low"],\n\t  }\n\t},"imagemagick-resize":{\n\t  dev:{\n\t    from:\'test/\',\n\t    to:\'test/resized/\',\n\t    files:\'resizeme.jpg\',\n\t    props:{\n\t      width:100\n\t    }\n\t  }\n\t},"imagemagick-convert":{\n\t  dev:{\n\t    args:[\'test/resizeme.jpg\',\'-resize\', \'25x25\', \'test/resized/resizeme-small.jpg\']\n\t  }\n\t}\n});\n```\n# Tasks\n__imagemagick-convert__\nUse the _args_ property to identify the list of arguments to pass to ImageMagick\'s convert command.\n\n__imagemagick-resize__\nThe following properties are valid:\n* _from_ : The path where images will be pulled from.\n* _to_ : The output path for the resized images.\n* _files_ : The wildcard identifying the files to resize.\n* _props_ : The properties to pass to the node_imagemagick "resize" method. See [node-imagemagick](https://github.com/rsms/node-imagemagick)\n\n__imagemagick-hisrc__\nThis is a little utility task which runs over a set of image files and creates three sizes of each using a specified naming convention. This is great for auto-generating the three image sizes accepted by HiSRC.\nThe following properties are valid:\n* _files_ : A wildcard identifying the files to resize, this should be a wildcard for the source image, which should be the full size retina image (2X)\n* _suffix_ : An array of suffixes to use. The first is the suffix for the large image, the second and third are the medium (normal) and small respectively. The assumption is that the source image follows the identified convention.\n\nIf you have any questions, feel free to ask, if you have any ideas, feel free to contribute a pull :)\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][grunt].\n\n## Release History\n_0.1.4_ First functional build on NPM\n_0.1.5_ Added documentation\n\n## License\nCopyright (c) 2012 Arne Strout  \nLicensed under the MIT license.\n',
+57 silly resolved     _id: 'grunt-imagemagick@0.1.5',
+57 silly resolved     dist:
+57 silly resolved      { shasum: 'd3df60d216b1ab905ae8ab85588ae532d38de54c',
+57 silly resolved        tarball: 'http://registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz' },
+57 silly resolved     _npmVersion: '1.1.62',
+57 silly resolved     _npmUser: { name: 'astrout', email: 'arne.strout@icrossing.com' },
+57 silly resolved     maintainers: [ [Object] ],
+57 silly resolved     directories: {},
+57 silly resolved     _shasum: 'd3df60d216b1ab905ae8ab85588ae532d38de54c',
+57 silly resolved     _from: 'grunt-imagemagick@^0.1.5',
+57 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-imagemagick/-/grunt-imagemagick-0.1.5.tgz' } ]
+58 info install grunt-imagemagick@0.1.5 into /Users/kerbyfc/Projects/test_cocos_project
+59 info installOne grunt-imagemagick@0.1.5
+60 verbose node_modules/grunt-imagemagick unbuild
+61 verbose tar unpack /Users/kerbyfc/.npm/grunt-imagemagick/0.1.5/package.tgz
+62 silly lockFile aa347884-t-node-modules-grunt-imagemagick tar:///Users/kerbyfc/Projects/test_cocos_project/node_modules/grunt-imagemagick
+63 verbose lock tar:///Users/kerbyfc/Projects/test_cocos_project/node_modules/grunt-imagemagick /Users/kerbyfc/.npm/aa347884-t-node-modules-grunt-imagemagick.lock
+64 silly lockFile 2d8aa40c-nt-imagemagick-0-1-5-package-tgz tar:///Users/kerbyfc/.npm/grunt-imagemagick/0.1.5/package.tgz
+65 verbose lock tar:///Users/kerbyfc/.npm/grunt-imagemagick/0.1.5/package.tgz /Users/kerbyfc/.npm/2d8aa40c-nt-imagemagick-0-1-5-package-tgz.lock
+66 silly gunzTarPerm modes [ '755', '644' ]
+67 silly gunzTarPerm extractEntry package.json
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm extractEntry README.md
+70 silly gunzTarPerm extractEntry grunt.js
+71 silly gunzTarPerm extractEntry bin/grunt-imagemagick
+72 silly gunzTarPerm extractEntry LICENSE-MIT
+73 silly gunzTarPerm extractEntry tasks/imagemagick.js
+74 silly gunzTarPerm extractEntry test/imagemagick_test.js
+75 silly gunzTarPerm extractEntry test/HISRC-1x.jpg
+76 silly gunzTarPerm extractEntry test/HISRC-2x.jpg
+77 silly gunzTarPerm extractEntry test/HISRC-low.jpg
+78 silly gunzTarPerm extractEntry test/resized/resizeme-small.jpg
+79 silly gunzTarPerm extractEntry test/resized/resizeme.jpg
+80 silly gunzTarPerm extractEntry test/resizeme.jpg
+81 silly lockFile aa347884-t-node-modules-grunt-imagemagick tar:///Users/kerbyfc/Projects/test_cocos_project/node_modules/grunt-imagemagick
+82 silly lockFile aa347884-t-node-modules-grunt-imagemagick tar:///Users/kerbyfc/Projects/test_cocos_project/node_modules/grunt-imagemagick
+83 silly lockFile 2d8aa40c-nt-imagemagick-0-1-5-package-tgz tar:///Users/kerbyfc/.npm/grunt-imagemagick/0.1.5/package.tgz
+84 silly lockFile 2d8aa40c-nt-imagemagick-0-1-5-package-tgz tar:///Users/kerbyfc/.npm/grunt-imagemagick/0.1.5/package.tgz
+85 info preinstall grunt-imagemagick@0.1.5
+86 verbose readDependencies using package.json deps
+87 verbose readDependencies using package.json deps
+88 verbose cache add [ 'fs@', null ]
+89 verbose cache add name=undefined spec="fs@" args=["fs@",null]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: 'fs@',
+90 verbose parsed url   path: 'fs@',
+90 verbose parsed url   href: 'fs@' }
+91 verbose cache add [ 'path@>= 0.0.1', null ]
+92 verbose cache add name=undefined spec="path@>= 0.0.1" args=["path@>= 0.0.1",null]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: 'path@%3E=%200.0.1',
+93 verbose parsed url   path: 'path@%3E=%200.0.1',
+93 verbose parsed url   href: 'path@%3E=%200.0.1' }
+94 verbose cache add name="fs" spec="" args=["fs",""]
+95 verbose parsed url { protocol: null,
+95 verbose parsed url   slashes: null,
+95 verbose parsed url   auth: null,
+95 verbose parsed url   host: null,
+95 verbose parsed url   port: null,
+95 verbose parsed url   hostname: null,
+95 verbose parsed url   hash: null,
+95 verbose parsed url   search: null,
+95 verbose parsed url   query: null,
+95 verbose parsed url   pathname: null,
+95 verbose parsed url   path: null,
+95 verbose parsed url   href: '' }
+96 verbose addNamed [ 'fs', '' ]
+97 verbose addNamed [ null, '*' ]
+98 silly lockFile a107b96b-fs fs@
+99 verbose lock fs@ /Users/kerbyfc/.npm/a107b96b-fs.lock
+100 verbose cache add [ 'node-imagemagick@', null ]
+101 verbose cache add name=undefined spec="node-imagemagick@" args=["node-imagemagick@",null]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: 'node-imagemagick@',
+102 verbose parsed url   path: 'node-imagemagick@',
+102 verbose parsed url   href: 'node-imagemagick@' }
+103 verbose cache add name="path" spec=">= 0.0.1" args=["path",">= 0.0.1"]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: '%3E=%200.0.1',
+104 verbose parsed url   path: '%3E=%200.0.1',
+104 verbose parsed url   href: '%3E=%200.0.1' }
+105 verbose addNamed [ 'path', '>= 0.0.1' ]
+106 verbose addNamed [ null, '>=0.0.1' ]
+107 silly lockFile c0c84218-path-0-0-1 path@>= 0.0.1
+108 verbose lock path@>= 0.0.1 /Users/kerbyfc/.npm/c0c84218-path-0-0-1.lock
+109 verbose cache add name="node-imagemagick" spec="" args=["node-imagemagick",""]
+110 verbose parsed url { protocol: null,
+110 verbose parsed url   slashes: null,
+110 verbose parsed url   auth: null,
+110 verbose parsed url   host: null,
+110 verbose parsed url   port: null,
+110 verbose parsed url   hostname: null,
+110 verbose parsed url   hash: null,
+110 verbose parsed url   search: null,
+110 verbose parsed url   query: null,
+110 verbose parsed url   pathname: null,
+110 verbose parsed url   path: null,
+110 verbose parsed url   href: '' }
+111 verbose addNamed [ 'node-imagemagick', '' ]
+112 verbose addNamed [ null, '*' ]
+113 silly lockFile 47a0f5c3-node-imagemagick node-imagemagick@
+114 verbose lock node-imagemagick@ /Users/kerbyfc/.npm/47a0f5c3-node-imagemagick.lock
+115 silly addNameRange { name: 'fs', range: '*', hasData: false }
+116 silly addNameRange { name: 'path', range: '>=0.0.1', hasData: false }
+117 verbose request where is /fs
+118 verbose request registry https://registry.npmjs.org/
+119 verbose url raw /fs
+120 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+121 verbose url resolved https://registry.npmjs.org/fs
+122 verbose request where is https://registry.npmjs.org/fs
+123 info trying registry request attempt 1 at 13:11:03
+124 http GET https://registry.npmjs.org/fs
+125 silly addNameRange { name: 'node-imagemagick', range: '*', hasData: false }
+126 verbose request where is /path
+127 verbose request registry https://registry.npmjs.org/
+128 verbose url raw /path
+129 verbose url resolving [ 'https://registry.npmjs.org/', './path' ]
+130 verbose url resolved https://registry.npmjs.org/path
+131 verbose request where is https://registry.npmjs.org/path
+132 info trying registry request attempt 1 at 13:11:03
+133 http GET https://registry.npmjs.org/path
+134 verbose request where is /node-imagemagick
+135 verbose request registry https://registry.npmjs.org/
+136 verbose url raw /node-imagemagick
+137 verbose url resolving [ 'https://registry.npmjs.org/', './node-imagemagick' ]
+138 verbose url resolved https://registry.npmjs.org/node-imagemagick
+139 verbose request where is https://registry.npmjs.org/node-imagemagick
+140 info trying registry request attempt 1 at 13:11:03
+141 http GET https://registry.npmjs.org/node-imagemagick
+142 http 200 https://registry.npmjs.org/path
+143 silly registry.get cb [ 200,
+143 silly registry.get   { date: 'Fri, 15 Aug 2014 09:11:03 GMT',
+143 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+143 silly registry.get     etag: '"C48QY14Z0ZS11WIRR23ERTQOT"',
+143 silly registry.get     'content-type': 'application/json',
+143 silly registry.get     'cache-control': 'max-age=60',
+143 silly registry.get     'content-length': '1461',
+143 silly registry.get     'accept-ranges': 'bytes',
+143 silly registry.get     via: '1.1 varnish',
+143 silly registry.get     age: '1285',
+143 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+143 silly registry.get     'x-cache': 'HIT',
+143 silly registry.get     'x-cache-hits': '1',
+143 silly registry.get     'x-timer': 'S1408093863.865571,VS0,VE107',
+143 silly registry.get     vary: 'Accept',
+143 silly registry.get     'keep-alive': 'timeout=10, max=50',
+143 silly registry.get     connection: 'Keep-Alive' } ]
+144 silly addNameRange number 2 { name: 'path', range: '>=0.0.1', hasData: true }
+145 silly addNameRange versions [ 'path', [ '0.4.9' ] ]
+146 verbose addNamed [ 'path', '0.4.9' ]
+147 verbose addNamed [ '0.4.9', '0.4.9' ]
+148 silly lockFile f9561765-path-0-4-9 path@0.4.9
+149 verbose lock path@0.4.9 /Users/kerbyfc/.npm/f9561765-path-0-4-9.lock
+150 silly lockFile badd1f40-ry-npmjs-org-path-path-0-4-9-tgz https://registry.npmjs.org/path/-/path-0.4.9.tgz
+151 verbose lock https://registry.npmjs.org/path/-/path-0.4.9.tgz /Users/kerbyfc/.npm/badd1f40-ry-npmjs-org-path-path-0-4-9-tgz.lock
+152 verbose addRemoteTarball [ 'https://registry.npmjs.org/path/-/path-0.4.9.tgz',
+152 verbose addRemoteTarball   '380c68d01273e43f9368d7ad50fee5e3e8d477f0' ]
+153 info retry fetch attempt 1 at 13:11:04
+154 verbose fetch to= /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/T/npm-29760-Zvq1sVfv/registry.npmjs.org/path/-/path-0.4.9.tgz
+155 http GET https://registry.npmjs.org/path/-/path-0.4.9.tgz
+156 http 200 https://registry.npmjs.org/node-imagemagick
+157 silly registry.get cb [ 200,
+157 silly registry.get   { date: 'Fri, 15 Aug 2014 09:11:03 GMT',
+157 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 silly registry.get     etag: '"5S9SFM6MTLZ7BFQ7CCIC2LWO8"',
+157 silly registry.get     'content-type': 'application/json',
+157 silly registry.get     'cache-control': 'max-age=60',
+157 silly registry.get     'content-length': '44221',
+157 silly registry.get     'accept-ranges': 'bytes',
+157 silly registry.get     via: '1.1 varnish',
+157 silly registry.get     age: '3142',
+157 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+157 silly registry.get     'x-cache': 'MISS',
+157 silly registry.get     'x-cache-hits': '0',
+157 silly registry.get     'x-timer': 'S1408093863.866806,VS0,VE107',
+157 silly registry.get     vary: 'Accept',
+157 silly registry.get     'keep-alive': 'timeout=10, max=50',
+157 silly registry.get     connection: 'Keep-Alive' } ]
+158 silly addNameRange number 2 { name: 'node-imagemagick', range: '*', hasData: true }
+159 silly addNameRange versions [ 'node-imagemagick',
+159 silly addNameRange   [ '0.1.3', '0.1.4', '0.1.5', '0.1.6', '0.1.7', '0.1.8' ] ]
+160 verbose addNamed [ 'node-imagemagick', '0.1.8' ]
+161 verbose addNamed [ '0.1.8', '0.1.8' ]
+162 silly lockFile 99b3b5e6-node-imagemagick-0-1-8 node-imagemagick@0.1.8
+163 verbose lock node-imagemagick@0.1.8 /Users/kerbyfc/.npm/99b3b5e6-node-imagemagick-0-1-8.lock
+164 silly lockFile 4b0d13e3-agick-node-imagemagick-0-1-8-tgz https://registry.npmjs.org/node-imagemagick/-/node-imagemagick-0.1.8.tgz
+165 verbose lock https://registry.npmjs.org/node-imagemagick/-/node-imagemagick-0.1.8.tgz /Users/kerbyfc/.npm/4b0d13e3-agick-node-imagemagick-0-1-8-tgz.lock
+166 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-imagemagick/-/node-imagemagick-0.1.8.tgz',
+166 verbose addRemoteTarball   'b6253d257d8ca0d035cf8215912a378f0998afc7' ]
+167 info retry fetch attempt 1 at 13:11:04
+168 verbose fetch to= /var/folders/y6/rwqylj2s7mb9mwcr_t1_kzg40000gp/T/npm-29760-Zvq1sVfv/registry.npmjs.org/node-imagemagick/-/node-imagemagick-0.1.8.tgz
+169 http GET https://registry.npmjs.org/node-imagemagick/-/node-imagemagick-0.1.8.tgz
+170 http 200 https://registry.npmjs.org/path/-/path-0.4.9.tgz
+171 silly lockFile badd1f40-ry-npmjs-org-path-path-0-4-9-tgz https://registry.npmjs.org/path/-/path-0.4.9.tgz
+172 silly lockFile badd1f40-ry-npmjs-org-path-path-0-4-9-tgz https://registry.npmjs.org/path/-/path-0.4.9.tgz
+173 silly lockFile f9561765-path-0-4-9 path@0.4.9
+174 silly lockFile f9561765-path-0-4-9 path@0.4.9
+175 silly lockFile c0c84218-path-0-0-1 path@>= 0.0.1
+176 silly lockFile c0c84218-path-0-0-1 path@>= 0.0.1
+177 http 404 https://registry.npmjs.org/fs
+178 silly registry.get cb [ 404,
+178 silly registry.get   { date: 'Fri, 15 Aug 2014 09:11:04 GMT',
+178 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+178 silly registry.get     etag: '"5BQZWWEVHQEXWCPP0V3B1TODR"',
+178 silly registry.get     'content-type': 'application/json',
+178 silly registry.get     'cache-control': 'max-age=0',
+178 silly registry.get     'content-length': '397',
+178 silly registry.get     'accept-ranges': 'bytes',
+178 silly registry.get     via: '1.1 varnish',
+178 silly registry.get     age: '0',
+178 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+178 silly registry.get     'x-cache': 'MISS',
+178 silly registry.get     'x-cache-hits': '0',
+178 silly registry.get     'x-timer': 'S1408093863.863808,VS0,VE728',
+178 silly registry.get     vary: 'Accept',
+178 silly registry.get     'keep-alive': 'timeout=10, max=50',
+178 silly registry.get     connection: 'Keep-Alive' } ]
+179 silly lockFile a107b96b-fs fs@
+180 silly lockFile a107b96b-fs fs@
+181 verbose about to build /Users/kerbyfc/Projects/test_cocos_project/node_modules/grunt-imagemagick
+182 verbose node_modules/grunt-imagemagick unbuild
+183 info preuninstall grunt-imagemagick@0.1.5
+184 info uninstall grunt-imagemagick@0.1.5
+185 verbose true,/Users/kerbyfc/Projects/test_cocos_project/node_modules,/Users/kerbyfc/Projects/test_cocos_project/node_modules unbuild grunt-imagemagick@0.1.5
+186 verbose /Users/kerbyfc/Projects/test_cocos_project/node_modules/.bin,[object Object] binRoot
+187 info postuninstall grunt-imagemagick@0.1.5
+188 error 404 Not Found
+188 error 404
+188 error 404 'fs' is not in the npm registry.
+188 error 404 You should bug the author to publish it
+188 error 404 It was specified as a dependency of 'grunt-imagemagick'
+188 error 404
+188 error 404 Note that you can also install from a
+188 error 404 tarball, folder, or http url, or git url.
+189 error System Darwin 13.3.0
+190 error command "node" "/usr/local/bin/npm" "install"
+191 error cwd /Users/kerbyfc/Projects/test_cocos_project
+192 error node -v v0.10.28
+193 error npm -v 1.4.16
+194 error code E404
+195 verbose exit [ 1, true ]

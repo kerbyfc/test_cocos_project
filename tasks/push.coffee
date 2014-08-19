@@ -1,11 +1,9 @@
 grunt = require 'grunt'
-sys = require('sys')
-exec = require('child_process').exec
 
 module.exports = ->
 
-  commit= grunt.file.read '.commit'
-  tag = grunt.file.read '.tag'
+  commit= grunt.file.exists('.commit') and grunt.file.read '.commit'
+  tag = grunt.file.exists('.tag') and grunt.file.read '.tag'
 
   if commit
 
@@ -24,6 +22,7 @@ module.exports = ->
 
               if tag
                 grunt.task.run 'shell:tag'
+
               done()
 
         tag:
@@ -36,5 +35,8 @@ module.exports = ->
 
               grunt.file.delete '.tag'
               done()
+
+  else
+    grunt.fail.fatal 'nothing to commit, check .commit file'
 
   grunt.task.run 'shell:push'

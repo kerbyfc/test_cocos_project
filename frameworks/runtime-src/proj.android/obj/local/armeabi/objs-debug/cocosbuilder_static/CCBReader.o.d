@@ -1,0 +1,326 @@
+obj/local/armeabi/objs-debug/cocosbuilder_static/CCBReader.o: \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBReader.cpp \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/ctype.h \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCDirector.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCPlatformMacros.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/ccConfig.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCPlatformConfig.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/android/CCPlatformDefine.h \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/android/log.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCRef.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/ccTypes.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/CCGeometry.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/ccMacros.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCConsole.h \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/select.h \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/thread \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/map \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/android/CCStdC.h \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/cassert \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/CCMath.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec2.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/CCMathBase.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec2.inl \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec2.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec3.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec3.inl \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec3.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Mat4.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec4.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec4.inl \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Mat4.inl \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec4.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Mat4.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Quaternion.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Quaternion.inl \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/android/CCGL.h \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/GLES2/gl2platform.h \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/KHR/khrplatform.h \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/GLES2/gl2.h \
+ /Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/GLES2/gl2ext.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCVector.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCLabelAtlas.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCAtlasNode.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCNode.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEventDispatcher.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEventListener.h \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/set \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEvent.h \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/unordered_map \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/list \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCScriptSupport.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/CCCommon.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCTouch.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEventTouch.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEventKeyboard.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCProtocols.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCTexture2D.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/CCAffineTransform.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/ccGLStateCache.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCQuadCommand.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCRenderCommand.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCGLProgramState.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCRenderCommandPool.h \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/stack \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/CCFileUtils.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCValue.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCData.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCScene.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./physics/CCPhysicsWorld.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCSpriteFrameCache.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCSpriteFrame.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCMap.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCTextureCache.h \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/condition_variable \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/queue \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/CCImage.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBReader.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBSequence.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBSequenceProperty.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBKeyframe.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/CCControl.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/CCControlUtils.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCSprite.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCTextureAtlas.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./physics/CCPhysicsBody.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./physics/CCPhysicsShape.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCCustomCommand.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/../../ExtensionMacros.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCLayer.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNodeLoader.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/CCInvocation.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/CCControl.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNodeLoaderLibrary.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNodeLoaderListener.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBMemberVariableAssigner.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBSelectorResolver.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions//GUI/CCControlExtension/CCInvocation.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBAnimationManager.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCActionInterval.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCAction.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCAnimation.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCActionInstant.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCActionEase.h \
+ /Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/ExtensionMacros.h \
+ /Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/sstream
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/ctype.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/android/api-level.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCDirector.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCPlatformMacros.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/ccConfig.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCPlatformConfig.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/android/CCPlatformDefine.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/android/log.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCRef.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/ccTypes.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/CCGeometry.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/ccMacros.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCConsole.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/sys/select.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/thread:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/map:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/mutex:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/android/CCStdC.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/cassert:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/CCMath.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec2.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/CCMathBase.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec2.inl:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec2.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec3.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec3.inl:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec3.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Mat4.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec4.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec4.inl:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Mat4.inl:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Vec4.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Mat4.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Quaternion.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/Quaternion.inl:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/android/CCGL.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/GLES2/gl2platform.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/KHR/khrplatform.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/GLES2/gl2.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/platforms/android-18/arch-arm/usr/include/GLES2/gl2ext.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCVector.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCLabelAtlas.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCAtlasNode.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCNode.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEventDispatcher.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEventListener.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/set:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEvent.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/unordered_map:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/list:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCScriptSupport.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/CCCommon.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCTouch.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEventTouch.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCEventKeyboard.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCProtocols.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCTexture2D.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./math/CCAffineTransform.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/ccGLStateCache.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCQuadCommand.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCRenderCommand.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCGLProgramState.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCRenderCommandPool.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/stack:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/CCFileUtils.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCValue.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCData.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCScene.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./physics/CCPhysicsWorld.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCSpriteFrameCache.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCSpriteFrame.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./base/CCMap.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCTextureCache.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/condition_variable:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/queue:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./platform/CCImage.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBReader.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBSequence.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBSequenceProperty.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBKeyframe.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/CCControl.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/CCControlUtils.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCSprite.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCTextureAtlas.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./physics/CCPhysicsBody.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./physics/CCPhysicsShape.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./renderer/CCCustomCommand.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/../../ExtensionMacros.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCLayer.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNodeLoader.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/CCInvocation.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/GUI/CCControlExtension/CCControl.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNodeLoaderLibrary.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCNodeLoaderListener.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBMemberVariableAssigner.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBSelectorResolver.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions//GUI/CCControlExtension/CCInvocation.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/CCBAnimationManager.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCActionInterval.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCAction.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCAnimation.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCActionInstant.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/./2d/CCActionEase.h:
+
+/Users/kerbyfc/Projects/test_cocos_project/frameworks/runtime-src/proj.android/../../js-bindings/cocos2d-x/cocos/editor-support/cocosbuilder/../../../extensions/ExtensionMacros.h:
+
+/Users/kerbyfc/Development/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include/sstream:

@@ -5,6 +5,6 @@ MenuScene = cc.Scene.extend
 
   onEnter: ->
     @_super()
-    layer = new MenuLayer
+    layer = new Space.BackgroundLayer
     layer.init()
     @addChild layer

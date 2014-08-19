@@ -1,36 +1,19 @@
-var res, resources;
-
-res = {
-  bg: {
-    play_png: "res/bg/play.png",
-    hello_png: "res/bg/hello.png"
-  },
-  btn: {
-    start_n_png: "res/btn/start_n.png",
-    start_s_png: "res/btn/start_s.png"
-  },
-  sprites: {
-    runner: {
-      png: "res/sprites/runner/runner.png",
-      plist: "res/sprites/runner/runner.plist"
-    }
-  }
+var RES = {
+  "hello_png": "res/bg/hello.png",
+  "play_png": "res/bg/play.png",
+  "space_jpg": "res/bg/space.jpg",
+  "start_n_png": "res/btn/start_n.png",
+  "start_s_png": "res/btn/start_s.png",
+  "runner_plist": "res/sprites/runner/runner.plist",
+  "runner_png": "res/sprites/runner/runner.png",
+  "smoke_jump_plist": "res/sprites/smoke_jump/smoke_jump.plist",
+  "smoke_jump_png": "res/sprites/smoke_jump/smoke_jump.png",
+  "smoke_plume_plist": "res/sprites/smoke_plume/smoke_plume.plist",
+  "smoke_plume_png": "res/sprites/smoke_plume/smoke_plume.png",
+  "smoke_right_plist": "res/sprites/smoke_puff_right/smoke_right.plist",
+  "smoke_right_png": "res/sprites/smoke_puff_right/smoke_right.png",
+  "smoke_puff_plist": "res/sprites/smoke_puff_up/smoke_puff.plist",
+  "smoke_puff_png": "res/sprites/smoke_puff_up/smoke_puff.png"
 };
-
-resources = _.values(_.clone(res, true));
-
-while (_.find(resources, function(e) {
-    return _.isObject(e);
-  })) {
-  resources = _.flatten(_.map(resources, function(e) {
-    if (_.isObject(e)) {
-      return _.values(e);
-    } else {
-      return e;
-    }
-  }));
-}
-
-cc.log(resources);
-
-//# sourceMappingURL=res.js.map
+var resources = _.values(RES);
+cc.log(JSON.stringify(resources, null, 2));

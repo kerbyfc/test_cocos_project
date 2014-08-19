@@ -16,6 +16,5 @@ module.exports = ->
   data.jsList = _.uniq data.jsList
 
   # write file
-  json = JSON.stringify data, null, 2
-  grunt.log.writeln "Project config: \n#{json}"
-  grunt.file.write 'project.json', json
+  inspect data.jsList
+  grunt.file.write 'project.json', stringify(data)

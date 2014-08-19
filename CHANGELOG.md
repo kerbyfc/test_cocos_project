@@ -1,3 +1,9 @@
+### 0.3.0
+  **refactored**
+  - add skeleton for scenes and layers
+  - make events delegation easy to use
+  - add finite state machine
+
 ### 0.2.0
   **concat vendor scripts to main.js**
   - add boot.js with initial code

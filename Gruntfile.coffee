@@ -1,37 +1,42 @@
+grunt = require 'grunt'
+
 # to use lodash in all custom tasks
 global._ = require './vendor/lodash.js'
 
+global.stringify = (obj) ->
+  JSON.stringify obj, null, 2
+
+global.inspect = (objs...) ->
+  for obj in objs
+    grunt.log.debug "\n" + stringify(obj)
+
 module.exports = (grunt) ->
+
+  sources = _.map [
+    'env.coffee'
+    'res.coffee'
+    'app/skeleton.coffee'
+    'app/*.coffee'
+    'layers/**/*.coffee'
+    'scenes/**/*.coffee'
+  ], (e) -> "coffee/#{e}"
+
   grunt.initConfig
 
     coffee:
 
-      options: {
+      options:
         sourceMap: true
         bare: true
-      }
-      compile: {
-        expand: true
-        src: ['**/*.coffee']
-        cwd: 'coffee'
-        dest: 'src'
-        ext: '.js'
-      }
-
-    package:
-      jsList: [
-        'env.js'
-        'res.js'
-        'layers/**/*.js'
-        'scenes/**/*.js'
-        'app.js'
-      ]
+      compile:
+        files:
+          'src/app.js': sources
 
     concat:
 
-      vendors:
+      main:
         files:
-          'main.js': ['vendor/lodash.js', 'main.js']
+          'main.js': ['vendor/*.js', 'boot.js']
 
     watch:
 
@@ -39,29 +44,33 @@ module.exports = (grunt) ->
         files: ['coffee/**/*.coffee']
         tasks: ['coffee']
 
-      js:
-        files: ['src/**/*.js']
-        tasks: ['package']
+      main:
+        files: ['boot.js', 'vendor/**/*.js']
+        tasks: ['concat:main']
+
+      sprites:
+        files: ['res/sprites/*.{png,jpg,plist}']
+        tasks: ['resources']
+        options:
+          spawn: false
 
     shell:
-
-      gco_package:
-        command: 'git checkout -f package.json'
-
-      gco_changelog:
-        command: 'git checkout -f CHANGELOG.md'
+      run:
+        command: 'cocos run -p web'
 
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-concat'
   grunt.loadNpmTasks 'grunt-shell'
+  grunt.loadNpmTasks 'grunt-spritesmith'
 
   for file in grunt.file.expand {cwd: 'tasks'}, '*.coffee'
     grunt.registerTask file.replace(/\.coffee$/, ''), require("./tasks/#{file}")
 
   grunt.registerTask 'default', [
-    'coffee',
-    'concat',
-    'package',
+    'resources'
+    'coffee'
+    'concat'
     'watch'
   ]
+

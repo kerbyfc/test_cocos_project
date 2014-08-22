@@ -1,6 +1,6 @@
 Skeleton =
 
-  _initFsm: ->
+  initFsm: ->
     if @stateflow? and @state?
 
       @_states = []
@@ -13,7 +13,7 @@ Skeleton =
           throw Error "fsm flow type error"
 
         # parse states
-        [from, to] = flow.match(FSM.re).slice(1)
+        [from, to] = flow.match(G.FSM.re).slice(1)
         from = from.split '/'
 
         # accumulate for events delegation
@@ -33,22 +33,36 @@ Skeleton =
             do (handler) =>
               # revert arguments order
               @fsm["on#{type + state}".toLowerCase()] = (event, from, to, args...) =>
-                handler args.concat([event, from, to])...
+                handler.apply @, args.concat([event, from, to])
 
-  _delegateEvents: ->
+  delegateEvents: ->
 
     # for all known input methods...
-    for inputMethod, eventTypes of EVENTS.mapping
+    for inputMethod, eventTypes of G.EVENTS.mapping
+      cc.log inputMethod
+      cc.log eventTypes
+      cc.log cc.sys.capabilities[inputMethod]
       if cc.sys.capabilities[inputMethod]
         for type, events of eventTypes
 
+          cc.log events
+
           # search for event handlers
           handlers = _.reduce(events, (result, event) =>
+            cc.log "EVENT #{event}"
+            cc.log @[event]
             if @[event]
-              result[event] = (e) =>
-                @[event](e, e.getCurrentTarget())
+              result[event] = switch inputMethod
+                when "mouse"
+                  (e) =>
+                    @[event](e, e.getButton(), e.getLocation())
+                else
+                  (actor, e) =>
+                    @[event](e, actor)
             result
           , {})
+
+          cc.log "HANDLERS #{JSON.stringify(handlers, null, 2)}"
 
           if _.size handlers
             cc.eventManager.addListener(

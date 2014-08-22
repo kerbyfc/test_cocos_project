@@ -450,7 +450,7 @@ s0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd4ba6d8d49a3b941^22c66f8d49a3b941^---0#1#1#--18"Check dependencies36"94E2FB03-B7E1-4156-AE70-3750C92A5651-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7aa8419901a5b941^81b4439901a5b941^---0#1#1#--18"Check dependencies36"6FE91667-F4D7-49FF-8B6B-0BE28F0FB17E-
 
 CCompileC build/cocos2d_libs.build/Debug-iphonesimulator/chipmunk\ iOS.build/Objects-normal/i386/chipmunk.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/src/chipmunk.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
 s429086630.998718
@@ -1544,13 +1544,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compil
 b9D8A7547-F633-49D3-9514-7F88AB661500
 
 CLibtool /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk\ iOS.a normal i386
-s430131597.442298
-e430131597.473859
+s430244249.269976
+e430244249.300370
 r1
 xLibtool
 x/Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk iOS.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk\ iOS.a normal i386101"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk\ iOS.a normal i386c559718d49a3b941^6151798d49a3b941^---0#0#1#--1679"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk\ iOS.a normal i386    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export IPHONEOS_DEPLOYMENT_TARGET=5.1.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kerbyfc/AndroidDev/sdk/tools:/Users/kerbyfc/AndroidDev/sdk/platform-tools:/Users/kerbyfc/AndroidDev/sdk:/Users/kerbyfc/Development/android-ndk-r9:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@face/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@global/bin:/Users/kerbyfc/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.kdr/bin:/Users/kerbyfc/.kdr/bin/kdr:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.conductance/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/usr/local/opt/go/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/ios -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/chipmunk\ iOS.build/Objects-normal/i386/chipmunk\ iOS.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk\ iOS.a36"13AB7991-62F5-41AD-B558-683384CC2D55-
-bF0779354-2025-49D4-91C1-AC4BCB993006
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk\ iOS.a normal i386101"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk\ iOS.a normal i3869336459901a5b941^71e54c9901a5b941^---0#0#1#--1679"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk\ iOS.a normal i386    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export IPHONEOS_DEPLOYMENT_TARGET=5.1.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kerbyfc/AndroidDev/sdk/tools:/Users/kerbyfc/AndroidDev/sdk/platform-tools:/Users/kerbyfc/AndroidDev/sdk:/Users/kerbyfc/Development/android-ndk-r9:/Users/kerbyfc/Projects/cocos2d-js/tools/cocos2d-console/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@face/bin:/Users/kerbyfc/.rvm/gems/ruby-2.1.1@global/bin:/Users/kerbyfc/.rvm/rubies/ruby-2.1.1/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.kdr/bin:/Users/kerbyfc/.kdr/bin/kdr:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/.conductance/bin:/Users/kerbyfc/.rvm/bin:/Users/kerbyfc/Development/apache-ant-1.9.4/bin:/usr/local/opt/go/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/ios -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug-iphonesimulator/chipmunk\ iOS.build/Objects-normal/i386/chipmunk\ iOS.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/ios/libchipmunk\ iOS.a36"46F06349-C902-4980-9BB8-030DF8B302A1-
+b512B3D9A-C62B-4930-86EB-5BC45AD1F2BC
 

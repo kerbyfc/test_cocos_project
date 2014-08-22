@@ -2,6 +2,8 @@ var RES = {
   "hello_png": "res/bg/hello.png",
   "play_png": "res/bg/play.png",
   "space_jpg": "res/bg/space.jpg",
+  "space_blue_jpg": "res/bg/space_blue.jpg",
+  "space_nebula_jpg": "res/bg/space_nebula.jpg",
   "start_n_png": "res/btn/start_n.png",
   "start_s_png": "res/btn/start_s.png",
   "runner_plist": "res/sprites/runner/runner.plist",

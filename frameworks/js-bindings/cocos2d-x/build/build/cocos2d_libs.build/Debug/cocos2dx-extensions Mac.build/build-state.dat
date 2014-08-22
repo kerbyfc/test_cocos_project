@@ -1475,7 +1475,7 @@ s0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9294f48be99bb941^e4a1f78be99bb941^---0#1#1#--18"Check dependencies36"083ECC50-2661-4E10-865C-023FE52D3A7C-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2d0574d303a5b941^810677d303a5b941^---0#1#1#--18"Check dependencies36"3E4B602C-AE7F-4399-BDE5-08A748C632AA-
 
 CCompileC build/cocos2d_libs.build/Debug/cocos2dx-extensions\ Mac.build/Objects-normal/x86_64/AssetsManager.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/extensions/assets-manager/AssetsManager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s429086328.355956
@@ -4617,13 +4617,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compil
 bDD0E6BBF-0657-42CE-A1DD-0B5EB828C2E1
 
 CLibtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a normal x86_64
-s429648267.978759
-e429648268.400768
+s430244819.474928
+e430244819.924899
 r1
 xLibtool
 x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions Mac.a
 xnormal
 xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a normal x86_64106"Libtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a normal x86_6427c2fa8be99bb941^2c9a668ce99bb941^---0#0#1#--832"Libtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a normal x86_64    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/cocos2dx-extensions\ Mac.build/Objects-normal/x86_64/cocos2dx-extensions\ Mac.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a36"7C8E3D36-B4E1-422F-86AD-3D018E1869D7-
-b8CF2B306-DAAE-4F03-837D-BE4009109F7C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a normal x86_64114"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a normal x86_6415a879d303a5b941^7ac8ecd303a5b941^---0#0#1#--840"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a normal x86_64    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/cocos2dx-extensions\ Mac.build/Objects-normal/x86_64/cocos2dx-extensions\ Mac.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libcocos2dx-extensions\ Mac.a36"068EC160-9B4B-4BD7-A7D3-49D259C8B652-
+b78FA3CA6-41B2-4114-B1D6-DE5CD21EDB47
 

@@ -1,3 +1,8 @@
+### 0.3.1
+  **refactoring**
+  - add helpers
+  - add some configs
+
 ### 0.3.0
   **refactored**
   - add skeleton for scenes and layers

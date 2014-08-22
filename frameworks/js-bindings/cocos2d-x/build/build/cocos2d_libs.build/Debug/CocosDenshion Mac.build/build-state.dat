@@ -255,7 +255,7 @@ s0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2992678ce99bb941^b5ff698ce99bb941^---0#1#1#--18"Check dependencies36"39139B5E-F2BA-49EC-900D-F2CF01142402-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies74b5edd303a5b941^9d0efcd303a5b941^---0#1#1#--18"Check dependencies36"8D04B307-25B2-4E02-90D6-10AC8C2A3AEA-
 
 CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/cocos/audio/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s429086331.764813
@@ -404,13 +404,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compil
 bFB921466-2C20-4CD9-B227-1096AD65D4E0
 
 CLibtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64
-s429648268.416074
-e429648268.434344
+s430244819.986883
+e430244820.006800
 r1
 xLibtool
 x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion Mac.a
 xnormal
 xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Libtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64100"Libtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_646c976a8ce99bb941^90316f8ce99bb941^---0#0#1#--808"Libtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion\ Mac.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a36"0E04879E-B0AE-4709-BD46-396A07A56242-
-bF036C5B7-885C-489E-9E24-33E72C056DD1
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64108"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_6480b7fcd303a5b941^0abe01d403a5b941^---0#0#1#--816"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a normal x86_64    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion\ Mac.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libCocosDenshion\ Mac.a36"CC1554A1-7617-4FB8-90E4-70F98878F15B-
+bEC98C13D-138B-42F1-9E9C-8FC81C3B5A19
 

@@ -12,18 +12,10 @@
   "renderMode": 0,
   "engineDir": "frameworks/cocos2d-html5",
   "modules": [
-    "cocos2d",
-    "chipmunk"
+    "cocos2d"
   ],
   "jsList": [
-    "src/env.js",
     "src/res.js",
-    "src/layers/animation_layer.js",
-    "src/layers/background_layer.js",
-    "src/layers/hud_layer.js",
-    "src/layers/menu_layer.js",
-    "src/scenes/menu_scene.js",
-    "src/scenes/play_scene.js",
     "src/app.js"
   ]
 }

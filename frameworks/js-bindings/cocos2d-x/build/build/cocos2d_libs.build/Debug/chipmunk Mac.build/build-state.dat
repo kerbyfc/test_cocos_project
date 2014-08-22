@@ -445,12 +445,12 @@ t1407391944
 s1772
 
 N/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk Mac.a
-t1407953322
-s812440
+t2
+s0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesfddd4f8be99bb941^9370518be99bb941^---0#1#1#--18"Check dependencies36"5E5CAA67-F7C3-47BE-B560-E1B506323B68-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies95f078cf03a5b941^30a07bcf03a5b941^---0#1#1#--18"Check dependencies36"0FFF0E56-8F93-44BF-A4DB-924A958DFEFA-
 
 CCompileC build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk.o /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/external/chipmunk/src/chipmunk.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s429086253.939665
@@ -1544,13 +1544,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compil
 b9DA0DE1F-4061-4FB4-9D2C-F0015EBA82BD
 
 CLibtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a normal x86_64
-s429646122.113476
-e429646122.147450
+s430244815.489368
+e430244815.520268
 r1
 xLibtool
 x/Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk Mac.a
 xnormal
 xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Libtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a normal x86_6495"Libtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a normal x86_64de211d2ae19bb941^cfbf252ae19bb941^---0#0#1#--788"Libtool /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a normal x86_64    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk\ Mac.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a36"B704F1FF-AD6B-48F6-A243-BB1F2C311504-
-b5199C9A0-E8D6-49DA-A6C1-59F7C470ECC0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a normal x86_64103"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a normal x86_64085a7dcf03a5b941^013185cf03a5b941^---0#0#1#--796"[1mLibtool[0m /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a normal x86_64    cd /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/kerbyfc/Projects/test_cocos_project/runtime/mac -filelist /Users/kerbyfc/Projects/test_cocos_project/frameworks/js-bindings/cocos2d-x/build/build/cocos2d_libs.build/Debug/chipmunk\ Mac.build/Objects-normal/x86_64/chipmunk\ Mac.LinkFileList -o /Users/kerbyfc/Projects/test_cocos_project/runtime/mac/libchipmunk\ Mac.a36"44248CA5-7293-4C2A-9068-83EB0107E787-
+bA0739AC9-324B-4254-8495-596FAE0F2704
 

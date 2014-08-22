@@ -1,11 +1,13 @@
 Layer = cc.Layer.extend _.extend {}, Skeleton,
 
-  ctor: ->
+  ctor: (args...) ->
     @_super()
+    @init(args)
 
-  init: (args...) ->
+  init: (args) ->
     @_super()
-    @_initFsm()
-    @initialize? args...
-    @_delegateEvents()
-    return @
+    @initFsm()
+    if @cName
+      @__cName = @cName
+    @initialize?(args...)
+    @delegateEvents()

@@ -1,12 +1,13 @@
 Scene = cc.Scene.extend _.extend {}, Skeleton,
 
   ctor: (args...) ->
-    @_super(args)
-    @init()
+    @_super()
+    @init(args)
 
   init: (args) ->
     @_super()
-    @_initFsm()
-    @initialize? args...
-    @_delegateEvents()
-    return @
+    @initFsm()
+    if @cName
+      @__cName = @cName
+    @initialize?(args...)
+    @delegateEvents()

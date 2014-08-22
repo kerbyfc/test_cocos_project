@@ -13,13 +13,14 @@ global.inspect = (objs...) ->
 module.exports = (grunt) ->
 
   sources = _.map [
-    'env.coffee'
-    'res.coffee'
-    'app/skeleton.coffee'
-    'app/*.coffee'
-    'layers/**/*.coffee'
-    'scenes/**/*.coffee'
-  ], (e) -> "coffee/#{e}"
+    'app/helpers'
+    'env'
+    'res'
+    'app/skeleton'
+    'app/*'
+    'layers/**/*'
+    'scenes/**/*'
+  ], (p) -> "coffee/#{p}.coffee"
 
   grunt.initConfig
 

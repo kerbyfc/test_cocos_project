@@ -20,7 +20,7 @@ module.exports = (grunt) ->
     'app/*'
     'layers/**/*'
     'scenes/**/*'
-  ], (p) -> "coffee/#{p}.coffee"
+  ], (p) -> "src/coffee/#{p}.coffee"
 
   grunt.initConfig
 
@@ -42,7 +42,7 @@ module.exports = (grunt) ->
     watch:
 
       coffee:
-        files: ['coffee/**/*.coffee']
+        files: ['src/coffee/**/*.coffee']
         tasks: ['coffee']
 
       main:
@@ -50,7 +50,7 @@ module.exports = (grunt) ->
         tasks: ['concat:main']
 
       sprites:
-        files: ['res/sprites/*.{png,jpg,plist}']
+        files: ['res/sprites/**/*.{png,jpg,plist,gif}']
         tasks: ['resources']
         options:
           spawn: false

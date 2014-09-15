@@ -7,7 +7,7 @@ grunt.event.on 'watch', (action, filepath, target) ->
 
 module.exports = (filepath) ->
 
-  re = /\_\d{1,5}\.png$/
+  re = /\_\d{1,5}\.(png|gif)$/
   if filepath.match(re)?
 
     [path..., basename] = filepath.split('/')

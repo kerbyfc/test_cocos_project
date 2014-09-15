@@ -1,0 +1,130 @@
+cc.Lens3D = cc.Grid3DAction.extend(/** @lends cc.Lens3D# */{
+370     /* lens center position */
+371     _position:null,
+372     _radius:0,
+373     /** lens effect. Defaults to 0.7 - 0 means no effect, 1 is very strong effect */
+374     _lensEffect:0,
+375     /** lens is concave. (true = concave, false = convex) default is convex i.e. false */
+376     _concave:false,
+377     _dirty:false,
+378 
+379 	/**
+380 	 * creates a lens 3d action with center position, radius
+381 	 * Constructor of cc.Lens3D
+382 	 * @param {Number} duration
+383 	 * @param {cc.Size} gridSize
+384 	 * @param {cc.Point} position
+385 	 * @param {Number} radius
+386 	 */
+387     ctor:function (duration, gridSize, position, radius) {
+388         cc.GridAction.prototype.ctor.call(this);
+389 
+390         this._position = cc.p(0, 0);
+391 		radius !== undefined && this.initWithDuration(duration, gridSize, position, radius);
+392     },
+393 
+394     /**
+395      * Get lens center position
+396      * @return {Number}
+397      */
+398     getLensEffect:function () {
+399         return this._lensEffect;
+400     },
+401 
+402     /**
+403      * Set lens center position
+404      * @param {Number} lensEffect
+405      */
+406     setLensEffect:function (lensEffect) {
+407         this._lensEffect = lensEffect;
+408     },
+409 
+410     /**
+411      * Set whether lens is concave
+412      * @param {Boolean} concave
+413      */
+414     setConcave:function (concave) {
+415         this._concave = concave;
+416     },
+417 
+418     /**
+419      * get Position
+420      * @return {cc.Point}
+421      */
+422     getPosition:function () {
+423         return this._position;
+424     },
+425 
+426     /**
+427      * set Position
+428      * @param {cc.Point} position
+429      */
+430     setPosition:function (position) {
+431         if (!cc.pointEqualToPoint(position, this._position)) {
+432             this._position.x = position.x;
+433             this._position.y = position.y;
+434             this._dirty = true;
+435         }
+436     },
+437 
+438     /**
+439      * initializes the action with center position, radius, a grid size and duration
+440      * @param {Number} duration
+441      * @param {cc.Size} gridSize
+442      * @param {cc.Point} position
+443      * @param {Number} radius
+444      * @return {Boolean}
+445      */
+446     initWithDuration:function (duration, gridSize, position, radius) {
+447         if (cc.Grid3DAction.prototype.initWithDuration.call(this, duration, gridSize)) {
+448             this.setPosition(position);
+449             this._radius = radius;
+450             this._lensEffect = 0.7;
+451             this._dirty = true;
+452             return true;
+453         }
+454         return false;
+455     },
+456 
+457     update:function (time) {
+458         if (this._dirty) {
+459             var locGridSizeWidth = this._gridSize.width, locGridSizeHeight = this._gridSize.height;
+460             var locRadius = this._radius, locLensEffect = this._lensEffect;
+461             var locPos = cc.p(0, 0);
+462             var vect = cc.p(0, 0);
+463             var v, r, l, new_r, pre_log;
+464             for (var i = 0; i < locGridSizeWidth + 1; ++i) {
+465                 for (var j = 0; j < locGridSizeHeight + 1; ++j) {
+466                     locPos.x = i;
+467                     locPos.y = j;
+468                     v = this.originalVertex(locPos);
+469                     vect.x = this._position.x - v.x;
+470                     vect.y = this._position.y - v.y;
+471                     r = cc.pLength(vect);
+472 
+473                     if (r < locRadius) {
+474                         r = locRadius - r;
+475                         pre_log = r / locRadius;
+476                         if (pre_log == 0)
+477                             pre_log = 0.001;
+478 
+479                         l = Math.log(pre_log) * locLensEffect;
+480                         new_r = Math.exp(l) * locRadius;
+481 
+482                         r = cc.pLength(vect);
+483                         if (r > 0) {
+484                             vect.x = vect.x / r;
+485                             vect.y = vect.y / r;
+486 
+487                             vect.x = vect.x * new_r;
+488                             vect.y = vect.y * new_r;
+489                             v.z += cc.pLength(vect) * locLensEffect;
+490                         }
+491                     }
+492                     this.setVertex(locPos, v);
+493                 }
+494             }
+495             this._dirty = false;
+496         }
+497     }
+498 });

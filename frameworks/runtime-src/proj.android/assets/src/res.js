@@ -1,11 +1,29 @@
 var RES = {
+  "atmos_png": "res/atmos.png",
+  "ball_png": "res/ball.png",
   "hello_png": "res/bg/hello.png",
   "play_png": "res/bg/play.png",
   "space_jpg": "res/bg/space.jpg",
   "space_blue_jpg": "res/bg/space_blue.jpg",
   "space_nebula_jpg": "res/bg/space_nebula.jpg",
+  "brown_planet_jpg": "res/brown_planet.jpg",
   "start_n_png": "res/btn/start_n.png",
   "start_s_png": "res/btn/start_s.png",
+  "gray_fsh": "res/gray.fsh",
+  "gray_vsh": "res/gray.vsh",
+  "heart_fsh": "res/heart.fsh",
+  "heart_vsh": "res/heart.vsh",
+  "planet_png": "res/planet.png",
+  "planet_blick_png": "res/planet_blick.png",
+  "planet_brown_jpg": "res/planet_brown.jpg",
+  "planet_clip_png": "res/planet_clip.png",
+  "planet_orb copy_png": "res/planet_orb copy.png",
+  "planet_orb_png": "res/planet_orb.png",
+  "planet_shadow_png": "res/planet_shadow.png",
+  "dark_planet_plist": "res/sprites/dark_planet/dark_planet.plist",
+  "dark_planet_png": "res/sprites/dark_planet/dark_planet.png",
+  "larais_planet_plist": "res/sprites/larais_planet/larais_planet.plist",
+  "larais_planet_png": "res/sprites/larais_planet/larais_planet.png",
   "runner_plist": "res/sprites/runner/runner.plist",
   "runner_png": "res/sprites/runner/runner.png",
   "smoke_jump_plist": "res/sprites/smoke_jump/smoke_jump.plist",
@@ -15,7 +33,8 @@ var RES = {
   "smoke_right_plist": "res/sprites/smoke_puff_right/smoke_right.plist",
   "smoke_right_png": "res/sprites/smoke_puff_right/smoke_right.png",
   "smoke_puff_plist": "res/sprites/smoke_puff_up/smoke_puff.plist",
-  "smoke_puff_png": "res/sprites/smoke_puff_up/smoke_puff.png"
+  "smoke_puff_png": "res/sprites/smoke_puff_up/smoke_puff.png",
+  "tetraid_jpg": "res/tetraid.jpg"
 };
 var resources = _.values(RES);
 cc.log(JSON.stringify(resources, null, 2));

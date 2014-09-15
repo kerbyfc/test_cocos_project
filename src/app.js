@@ -1,4 +1,4 @@
-var AnimationLayer, G, Layer, MenuScene, Scene, Skeleton, Space, e, _i, _len, _ref,
+var AnimationLayer, G, Layer, MenuScene, Scene, ShaderNode, Skeleton, Space, a, e, _i, _len, _ref,
   __slice = [].slice;
 
 _.mixin({
@@ -8,34 +8,64 @@ _.mixin({
 });
 
 _.mixin({
-  fold: function() {
-    var obj, objs, pt, s, _i, _len;
+  pAdd: function() {
+    var obj, objs, s, _i, _len;
     objs = 1 <= arguments.length ? __slice.call(arguments, 0) : [];
     s = cc.p();
     for (_i = 0, _len = objs.length; _i < _len; _i++) {
       obj = objs[_i];
-      pt = cc.p(obj);
-      s.x += pt.x;
-      s.y += pt.y;
+      s = cc.pAdd(s, cc.p(obj));
     }
     return s;
   }
 });
 
 _.mixin({
-  amid: function() {
+  pAmid: function() {
     var objs, pt;
     objs = 1 <= arguments.length ? __slice.call(arguments, 0) : [];
-    pt = _.fold.apply(_, objs);
+    return _.pCalc((pt = _.pAdd.apply(_, objs)), function(v) {
+      return v /= objs.length;
+    });
+  }
+});
+
+_.mixin({
+  pCalc: function(pt, fn) {
     return cc.p.apply(cc, _.map(['x', 'y'], function(c) {
-      return pt[c] /= objs.length;
+      return fn(pt[c], c, pt);
     }));
   }
 });
 
 _.mixin({
-  shift: function(pt, factor) {
-    return cc.p(pt.x * factor, pt.y * factor);
+  pDiff: function(a, b) {
+    return cc.p.apply(cc, _.map(['x', 'y'], function(c) {
+      return cc.p(a)[c] - cc.p(b)[c];
+    }));
+  }
+});
+
+_.mixin({
+  log: function() {
+    var arg, args, cache, out, _i, _len, _results;
+    args = 1 <= arguments.length ? __slice.call(arguments, 0) : [];
+    _results = [];
+    for (_i = 0, _len = args.length; _i < _len; _i++) {
+      arg = args[_i];
+      cache = [];
+      out = _.isObject(arg) || _.isArray(arg) ? JSON.stringify(arg, function(key, value) {
+        if (typeof value === 'object' && (value != null)) {
+          if (cache.indexOf(value) !== -1) {
+            return;
+          }
+          cache.push(value);
+        }
+        return value;
+      }, 2) : arg;
+      _results.push(cc.log(out));
+    }
+    return _results;
   }
 });
 
@@ -168,20 +198,14 @@ Skeleton = {
     _results = [];
     for (inputMethod in _ref1) {
       eventTypes = _ref1[inputMethod];
-      cc.log(inputMethod);
-      cc.log(eventTypes);
-      cc.log(cc.sys.capabilities[inputMethod]);
       if (cc.sys.capabilities[inputMethod]) {
         _results.push((function() {
           var _results1;
           _results1 = [];
           for (type in eventTypes) {
             events = eventTypes[type];
-            cc.log(events);
             handlers = _.reduce(events, (function(_this) {
               return function(result, event) {
-                cc.log("EVENT " + event);
-                cc.log(_this[event]);
                 if (_this[event]) {
                   result[event] = (function() {
                     switch (inputMethod) {
@@ -203,7 +227,6 @@ Skeleton = {
                 return result;
               };
             })(this), {});
-            cc.log("HANDLERS " + (JSON.stringify(handlers, null, 2)));
             if (_.size(handlers)) {
               _results1.push(cc.eventManager.addListener(_.extend({}, handlers, {
                 event: cc.EventListener[type]
@@ -242,6 +265,28 @@ Layer = cc.Layer.extend(_.extend({}, Skeleton, {
   }
 }));
 
+cc.EventMouse.prototype.checkLocation = function(target) {
+  var l, s;
+  if (target == null) {
+    target = this.getCurrentTarget();
+  }
+  s = target.getContentSize();
+  l = target.convertToNodeSpace(this.getLocation());
+  return cc.rectContainsPoint(cc.rect(0, 0, s.width, s.height), l);
+};
+
+cc.EventTouch.prototype.checkLocation = function(target, touches) {
+  var l, s;
+  if (target == null) {
+    target = this.getCurrentTarget();
+  }
+  if (touches.length === 1) {
+    s = target.getContentSize();
+    l = target.convertToNodeSpace(touches[0].getLocation());
+    return cc.rectContainsPoint(cc.rect(0, 0, s.width, s.height), l);
+  }
+};
+
 Scene = cc.Scene.extend(_.extend({}, Skeleton, {
   ctor: function() {
     var args;
@@ -261,6 +306,70 @@ Scene = cc.Scene.extend(_.extend({}, Skeleton, {
     return this.delegateEvents();
   }
 }));
+
+cc.GLNode = cc.Node.extend({
+  draw: function(ctx) {
+    return this._super(ctx);
+  }
+});
+
+cc.GLNode.create = function() {
+  var node;
+  node = new cc.GLNode();
+  node.init();
+  return node;
+};
+
+cc.GLNode.extend = cc.Class.extend;
+
+ShaderNode = cc.GLNode.extend({
+  ctor: function(vertexShader, framentShader) {
+    var program;
+    this._super();
+    this.init();
+    if (cc.sys.capabilities.opengl) {
+      this.width = 256;
+      this.height = 256;
+      this.anchorX = 0.5;
+      this.anchorY = 0.5;
+      this.shader = cc.GLProgram.create(vertexShader, framentShader);
+      this.shader.retain();
+      this.shader.addAttribute("aVertex", cc.VERTEX_ATTRIB_POSITION);
+      this.shader.link();
+      this.shader.updateUniforms();
+      program = this.shader.getProgram();
+      this.uniformCenter = gl.getUniformLocation(program, "center");
+      this.uniformResolution = gl.getUniformLocation(program, "resolution");
+      this.initBuffers();
+      this.scheduleUpdate();
+      this._time = 0;
+    }
+  },
+  draw: function() {
+    var winSize;
+    winSize = cc.director.getWinSize();
+    this.shader.use();
+    this.shader.setUniformsForBuiltins();
+    this.shader.setUniformLocationF32(this.uniformCenter, 100, 100);
+    this.shader.setUniformLocationF32(this.uniformResolution, 256, 256);
+    cc.glEnableVertexAttribs(cc.VERTEX_ATTRIB_FLAG_POSITION);
+    gl.bindBuffer(gl.ARRAY_BUFFER, this.squareVertexPositionBuffer);
+    gl.vertexAttribPointer(cc.VERTEX_ATTRIB_POSITION, 2, gl.FLOAT, false, 0, 0);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+  },
+  update: function(dt) {
+    this._time += dt;
+  },
+  initBuffers: function() {
+    var squareVertexPositionBuffer, vertices;
+    squareVertexPositionBuffer = this.squareVertexPositionBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, squareVertexPositionBuffer);
+    vertices = [256, 256, 0, 256, 256, 0, 0, 0];
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+  }
+});
 
 AnimationLayer = cc.Layer.extend({
   spriteSheet: null,
@@ -282,11 +391,11 @@ Space.BackgroundLayer = Layer.extend({
     var bg, bg1, bg2, bg3, i, scale, scaleh, scalew, _j, _len1, _ref1;
     this.voidNode = cc.ParallaxNode.create();
     bg1 = cc.Sprite.create(RES.space_nebula_jpg);
-    bg1.setOpacity(255);
+    bg1.setOpacity(140);
     bg1.anchorX = 0;
     bg1.anchorY = 0;
     bg2 = cc.Sprite.create(RES.space_blue_jpg);
-    bg2.setOpacity(120);
+    bg2.setOpacity(160);
     bg2.anchorX = 0;
     bg2.anchorY = 0;
     bg3 = cc.Sprite.create(RES.space_jpg);
@@ -302,18 +411,21 @@ Space.BackgroundLayer = Layer.extend({
       cc.log("SET SCALE " + i + " = " + scale + " [" + bg.width + "x" + bg.height + "]");
       bg.setScale(scale);
     }
-    this.voidNode.addChild(bg1, 0, cc.p(0.1, 0.1), cc.p(0, 0));
-    this.voidNode.addChild(bg2, 1, cc.p(0.3, 0.3), cc.p(0, 0));
-    this.voidNode.addChild(bg3, 2, cc.p(0.5, 0.5), cc.p(0, 0));
+    this.voidNode.addChild(bg1, 0, cc.p(0.03, 0.03), cc.p(0, 0));
+    this.voidNode.addChild(bg2, 1, cc.p(0.05, 0.05), cc.p(0, 0));
+    this.voidNode.addChild(bg3, 2, cc.p(0.08, 0.08), cc.p(0, 0));
     return this.addChild(this.voidNode);
   }
 });
 
+a = null;
+
 Space.GameLayer = Layer.extend({
   cName: "GameLayer",
-  initialize: function(bg) {
-    var center, label, listener, w;
-    this.bg = bg;
+  initialize: function(scene) {
+    var center, clipper, fade, mask, move, move2, orb, orb2, planet, planet2, planetNode, rotate, rotate2, w;
+    this.scene = scene;
+    this.scheduleUpdate();
     this.width = G.MAP_SIZE[0];
     this.height = G.MAP_SIZE[1];
     this.drawNode = cc.DrawNode.create();
@@ -328,32 +440,94 @@ Space.GameLayer = Layer.extend({
     this.drawDot(0, G.MAP_SIZE[1]);
     this.drawDot(G.MAP_SIZE[0], 0);
     center = cc.p(this.width / 2, this.height / 2);
-    label = cc.LabelTTF.create("Coins:0", "Helvetica", 40);
-    label.setPosition(center);
-    label.__cName = "LABEL";
-    listener = cc.EventListener.create({
-      event: G.MOUSE,
-      onMouseDown: (function(_this) {
-        return function(event) {
-          return _this.parent.currentEventTarget = event.getCurrentTarget();
-        };
-      })(this),
-      onMouseUp: (function(_this) {
-        return function(event) {
-          var target;
-          if (_this.parent.currentEventTarget === event.getCurrentTarget()) {
-            target = event.getCurrentTarget();
-            cc.log(">>>");
-            return cc.log(target);
-          }
-        };
-      })(this)
+
+    /*
+      * ------------------------------------------------------
+     */
+
+    /*
+      * ---------------------------------------------------
+     */
+    planetNode = cc.Node.create();
+    mask = cc.Sprite.create(RES.planet_clip_png);
+    planet = cc.Sprite.create(RES.planet_brown_jpg);
+    planet2 = cc.Sprite.create(RES.planet_brown_jpg);
+    orb = cc.Sprite.create(RES.planet_orb_png);
+    orb2 = cc.Sprite.create(RES.atmos_png);
+    mask.opacity = 50;
+    planet2.x = -planet2.width;
+    clipper = cc.ClippingNode.create();
+    clipper.setStencil(mask);
+    clipper.setAlphaThreshold(0.5);
+    clipper.setContentSize(cc.size(mask.getContentSize().width, mask.getContentSize().height));
+    clipper.addChild(mask, 1);
+    clipper.addChild(planet, 2);
+    clipper.addChild(planet2, 3);
+    move = cc.Sequence.create(cc.MoveTo.create(35, cc.p(planet.width, 0)), cc.CallFunc.create(function() {
+      cc.log("HERE");
+      cc.log(this);
+      return this.setPosition(cc.p(0, 0));
+    }, planet)).repeatForever();
+    move2 = cc.Sequence.create(cc.MoveTo.create(35, cc.p(0, 0)), cc.CallFunc.create(function() {
+      cc.log("HERE");
+      cc.log(this);
+      return this.setPosition(cc.p(-planet2.width, 0));
+    }, planet2)).repeatForever();
+    planet.runAction(move);
+    planet2.runAction(move2);
+    rotate = cc.RotateBy.create(180, 180).repeatForever();
+    fade = cc.Sequence.create(cc.FadeTo.create(90, 220), cc.FadeTo.create(90, 255)).repeatForever();
+    mask.runAction(rotate);
+    clipper.attr({
+      x: 300,
+      y: 300
     });
-    cc.eventManager.addListener(listener, label);
+    orb.setPosition(clipper.getPosition());
+    orb.opacity = 250;
+    orb2.setPosition(clipper.getPosition());
+    orb2.opacity = 250;
+    rotate2 = rotate.clone();
+    orb2.runAction(rotate2);
+    orb.runAction(rotate);
+    orb.runAction(fade);
+    orb2.runAction(fade.clone());
+    clipper.setRotation(30);
+    planetNode.addChild(clipper, 1);
+    planetNode.addChild(orb, 3);
+    planetNode.addChild(orb2, 2);
+    this.addChild(planetNode);
     this.drawNode.drawRect(cc.p(this.x, this.y), cc.p(this.width, this.height), null, 2, cc.color(255, 0, 255, 120));
     this.w = w = cc.director.getWinSize();
-    this.addChild(label);
     return this.addChild(this.drawNode, 10);
+  },
+  assign: function(assigment, fn) {
+    return (function(_this) {
+      return function(e) {
+        assigment.ctar = e.getCurrentTarget();
+        cc.log("SCENE TARGET");
+        cc.log(_this.scene.currentEventTarget);
+        return fn.apply(null, arguments);
+      };
+    })(this);
+  },
+  assigned: function(assigment, fn) {
+    return (function(_this) {
+      return function(e, touches) {
+        var target;
+        target = e.getCurrentTarget();
+        cc.log("ASSIGNED");
+        cc.log(e);
+        cc.log(assigment.ctar);
+        cc.log(assigment.ctar === target);
+        cc.log(_this.scene.currentEventTarget);
+        if (assigment.ctar === target) {
+          assigment.ctar = null;
+          if (e.checkLocation(target, touches)) {
+            return fn.apply(null, arguments);
+          }
+        }
+      };
+    })(this);
   },
   drawDot: function(x, y, radius) {
     if (radius == null) {
@@ -415,6 +589,12 @@ Space.Scene = Scene.extend({
   cName: "SpaceScene",
 
   /*
+    * current event target
+    * of game layer
+   */
+  ctar: null,
+
+  /*
     * batch of drag events deltas
     * need for layers's slipping
    */
@@ -455,12 +635,12 @@ Space.Scene = Scene.extend({
      * background layer
      * with parallax node
      */
-    this.bgl = new Space.BackgroundLayer();
+    this.bgl = new Space.BackgroundLayer(this);
 
     /*
       * main gameplay layer
      */
-    this.gpl = new Space.GameLayer();
+    this.gpl = new Space.GameLayer(this);
 
     /*
       * gameplay layer position bounds
@@ -474,17 +654,20 @@ Space.Scene = Scene.extend({
     * @param {cc.Point} pt point to be fixed if needed
     * @return {cc.Point|Boolean}
    */
-  fixPosOverages: function(pt) {
+  fixPosOverages: function(pt, p) {
     var c, _j, _len1, _ref1;
+    if (p == null) {
+      p = cc.p();
+    }
     _ref1 = ['x', 'y'];
     for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
       c = _ref1[_j];
-      pt[c] = !(pt[c] > this.bounds[c]) ? _.max([pt[c], this.bounds[c]]) : _.min([pt[c], 0]);
+      p[c] = !(pt[c] > this.bounds[c]) ? _.max([pt[c], this.bounds[c]]) : _.min([pt[c], 0]);
     }
     if (_.values(pt) === _.values(this.gpl.getPosition())) {
       return false;
     }
-    return pt;
+    return p;
   },
 
   /*
@@ -503,16 +686,20 @@ Space.Scene = Scene.extend({
     * @return {void}
    */
   drag: function(dX, dY) {
-    var aim, d;
+    var aim, d, faim;
     (d = this.dragDelstasBatch).push(cc.p(dX, dY));
     if (d.length > G.DRAG_AVG_FACTOR) {
       d.shift();
     }
-    if (aim = this.fixPosOverages(cc.p(this.gpl.x + dX, this.gpl.y + dY))) {
-      this.gpl.x = aim.x;
-      this.gpl.y = aim.y;
-      this.bgl.voidNode.x = aim.x;
-      return this.bgl.voidNode.y = aim.y;
+    aim = cc.p(this.gpl.x + dX, this.gpl.y + dY);
+    if (faim = this.fixPosOverages(aim)) {
+
+      /*
+        * TODO show bouding box with gradient
+        * based on _.pDiff(aim, faim)
+       */
+      this.gpl.setPosition(faim);
+      return this.bgl.voidNode.setPosition(faim);
     }
   },
 
@@ -523,23 +710,8 @@ Space.Scene = Scene.extend({
     return this.fsm.trap();
   },
   onMouseMove: function(event) {
-    var drag, maxD;
     if (event.getButton() === cc.EventMouse.BUTTON_LEFT) {
-      drag = (function(_this) {
-        return function() {
-          return _this.drag(event.getDeltaX(), event.getDeltaY());
-        };
-      })(this);
-      switch (this.fsm.current) {
-        case "dragging":
-          return drag();
-        case "trapping":
-          maxD = _.max(_.map([event.getDeltaX(), event.getDeltaY()], Math.abs));
-          if (maxD > G.MIN_DRAG_DELTA) {
-            this.fsm.drag();
-            return drag();
-          }
-      }
+      return this.trapMove(event.getDeltaX(), event.getDeltaY());
     }
   },
   onMouseUp: function(event) {
@@ -547,17 +719,47 @@ Space.Scene = Scene.extend({
       return this.fsm.slip();
     }
   },
+  trapMove: function(dX, dY) {
+    var maxD;
+    switch (this.fsm.current) {
+      case "dragging":
+        return this.drag(dX, dY);
+      case "trapping":
+        maxD = _.max(_.map([dX, dY], Math.abs));
+        if (maxD > G.MIN_DRAG_DELTA) {
+          this.fsm.drag();
+          return this.drag(dX, dY);
+        }
+    }
+  },
 
   /*
     * TOUCHES -----------------------------
    */
+  onTouchesBegan: function(event, touches) {
+    if (touches.length === 1) {
+      return this.fsm.trap();
+    }
+  },
+  onTouchesMoved: function(event, touches) {
+    if (touches.length === 1) {
+      return this.trapMove(touches[0].getDelta().x, touches[0].getDelta().y);
+    }
+  },
+  onTouchesEnded: function(event, touches) {
+    if (touches.length === 1) {
+      if (this.fsm.is("dragging")) {
+        return this.fsm.slip();
+      }
+    }
+  },
 
   /*
     * STATES ------------------------------
    */
   onEnterDragging: function(currentEventTarget) {
     cc.log("ENTER MOVING");
-    return this.currentEventTarget = null;
+    return this.ctar = null;
   },
   onEnterMoving: function() {
     cc.log("LAST MOVING DELTA");
@@ -567,11 +769,14 @@ Space.Scene = Scene.extend({
     return cc.log("TRAPPING");
   },
   onEnterSlipping: function() {
-    var aim, slip;
-    if (aim = this.fixPosOverages(_.fold(this.gpl, _.shift(_.amid.apply(_, this.dragDelstasBatch), G.DRAG_SLIP_FACTOR)))) {
+    var aim, d, slip;
+    d = _.pCalc(_.pAmid.apply(_, this.dragDelstasBatch), function(v) {
+      return v *= G.DRAG_SLIP_FACTOR;
+    });
+    if (aim = this.fixPosOverages(_.pAdd(this.gpl, d))) {
       slip = cc.MoveTo.create(1, aim).easing(cc.easeExponentialOut());
-      this.gpl.runAction(slip);
       this.dragDelstasBatch = [];
+      this.gpl.runAction(slip);
       return this.bgl.voidNode.runAction(slip.clone());
     }
   }

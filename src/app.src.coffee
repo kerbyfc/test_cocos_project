@@ -1,22 +1,34 @@
 _.mixin capitalize: (string) ->
   string.charAt(0).toUpperCase() + string.slice(1).toLowerCase()
 
-_.mixin fold: (objs...) ->
+_.mixin pAdd: (objs...) ->
   s = cc.p()
   for obj in objs
-    pt = cc.p obj
-    s.x += pt.x
-    s.y += pt.y
+    s = cc.pAdd s, cc.p(obj)
   s
 
-_.mixin amid: (objs...) ->
-  pt = _.fold objs...
-  cc.p (_.map ['x', 'y'], (c) ->
-    pt[c] /= objs.length)...
+_.mixin pAmid: (objs...) ->
+  _.pCalc (pt = _.pAdd objs...), (v) -> v /= objs.length
 
-_.mixin shift: (pt, factor) ->
-  cc.p pt.x * factor, pt.y * factor
+_.mixin pCalc: (pt, fn) -> cc.p (_.map ['x', 'y'], (c) -> fn(pt[c], c, pt) )...
 
+_.mixin pDiff: (a, b) ->
+  cc.p (_.map ['x', 'y'], (c) -> cc.p(a)[c] - cc.p(b)[c])...
+
+_.mixin log: (args...) ->
+  for arg in args
+    cache = []
+    out = if _.isObject(arg) or _.isArray(arg)
+      JSON.stringify(arg, (key, value) ->
+        if typeof value is 'object' && value?
+          if cache.indexOf(value) isnt -1
+            return
+          cache.push(value)
+        return value
+      , 2)
+    else
+      arg
+    cc.log out
 
 
 # SCOPE
@@ -121,18 +133,10 @@ Skeleton =
 
     # for all known input methods...
     for inputMethod, eventTypes of G.EVENTS.mapping
-      cc.log inputMethod
-      cc.log eventTypes
-      cc.log cc.sys.capabilities[inputMethod]
       if cc.sys.capabilities[inputMethod]
         for type, events of eventTypes
-
-          cc.log events
-
           # search for event handlers
           handlers = _.reduce(events, (result, event) =>
-            cc.log "EVENT #{event}"
-            cc.log @[event]
             if @[event]
               result[event] = switch inputMethod
                 when "mouse"
@@ -143,9 +147,6 @@ Skeleton =
                     @[event](e, actor)
             result
           , {})
-
-          cc.log "HANDLERS #{JSON.stringify(handlers, null, 2)}"
-
           if _.size handlers
             cc.eventManager.addListener(
               _.extend {}, handlers, event: cc.EventListener[type]
@@ -165,6 +166,17 @@ Layer = cc.Layer.extend _.extend {}, Skeleton,
     @initialize?(args...)
     @delegateEvents()
 
+cc.EventMouse.prototype.checkLocation = (target = @getCurrentTarget()) ->
+  s = target.getContentSize()
+  l = target.convertToNodeSpace @getLocation()
+  cc.rectContainsPoint cc.rect(0, 0, s.width, s.height), l
+
+cc.EventTouch.prototype.checkLocation = (target = @getCurrentTarget(), touches) ->
+  if touches.length is 1
+    s = target.getContentSize()
+    l = target.convertToNodeSpace touches[0].getLocation()
+    cc.rectContainsPoint cc.rect(0, 0, s.width, s.height), l
+
 Scene = cc.Scene.extend _.extend {}, Skeleton,
 
   ctor: (args...) ->
@@ -178,6 +190,88 @@ Scene = cc.Scene.extend _.extend {}, Skeleton,
       @__cName = @cName
     @initialize?(args...)
     @delegateEvents()
+
+
+cc.GLNode = cc.Node.extend
+  draw: (ctx) ->
+      this._super(ctx)
+
+cc.GLNode.create = ->
+
+  node = new cc.GLNode()
+  node.init()
+  return node
+
+cc.GLNode.extend = cc.Class.extend
+
+ShaderNode = cc.GLNode.extend(
+  ctor: (vertexShader, framentShader) ->
+    @_super()
+    @init()
+    if cc.sys.capabilities.opengl
+      @width = 256
+      @height = 256
+      @anchorX = 0.5
+      @anchorY = 0.5
+      @shader = cc.GLProgram.create(vertexShader, framentShader)
+      @shader.retain()
+      @shader.addAttribute "aVertex", cc.VERTEX_ATTRIB_POSITION
+      @shader.link()
+      @shader.updateUniforms()
+      program = @shader.getProgram()
+      @uniformCenter = gl.getUniformLocation(program, "center")
+      @uniformResolution = gl.getUniformLocation(program, "resolution")
+      @initBuffers()
+      @scheduleUpdate()
+      @_time = 0
+    return
+
+  draw: ->
+
+    winSize = cc.director.getWinSize()
+
+    @shader.use()
+    @shader.setUniformsForBuiltins()
+
+    #
+    # Uniforms
+    #
+    @shader.setUniformLocationF32 @uniformCenter, 100, 100
+    @shader.setUniformLocationF32 @uniformResolution, 256, 256
+    cc.glEnableVertexAttribs cc.VERTEX_ATTRIB_FLAG_POSITION
+
+    # Draw fullscreen Square
+    gl.bindBuffer gl.ARRAY_BUFFER, @squareVertexPositionBuffer
+    gl.vertexAttribPointer cc.VERTEX_ATTRIB_POSITION, 2, gl.FLOAT, false, 0, 0
+    gl.drawArrays gl.TRIANGLE_STRIP, 0, 4
+    gl.bindBuffer gl.ARRAY_BUFFER, null
+    return
+
+  update: (dt) ->
+    @_time += dt
+    return
+
+  initBuffers: ->
+
+    #
+    # Square
+    #
+    squareVertexPositionBuffer = @squareVertexPositionBuffer = gl.createBuffer()
+    gl.bindBuffer gl.ARRAY_BUFFER, squareVertexPositionBuffer
+    vertices = [
+      256
+      256
+      0
+      256
+      256
+      0
+      0
+      0
+    ]
+    gl.bufferData gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW
+    gl.bindBuffer gl.ARRAY_BUFFER, null
+    return
+)
 
 # class Sprite
 
@@ -222,6 +316,8 @@ AnimationLayer = cc.Layer.extend
     # @sprite.sprite.attr x: 100, y: 100
 
     # @sprite.appendTo @
+    #
+
 
 Space.BackgroundLayer = Layer.extend
 
@@ -234,12 +330,12 @@ Space.BackgroundLayer = Layer.extend
     @voidNode = cc.ParallaxNode.create()
 
     bg1 = cc.Sprite.create RES.space_nebula_jpg
-    bg1.setOpacity 255
+    bg1.setOpacity 140
     bg1.anchorX = 0
     bg1.anchorY = 0
 
     bg2 = cc.Sprite.create RES.space_blue_jpg
-    bg2.setOpacity 120
+    bg2.setOpacity 160
     bg2.anchorX = 0
     bg2.anchorY = 0
 
@@ -255,9 +351,9 @@ Space.BackgroundLayer = Layer.extend
       cc.log "SET SCALE #{i} = #{scale} [#{bg.width}x#{bg.height}]"
       bg.setScale scale
 
-    @voidNode.addChild(bg1, 0, cc.p(0.1, 0.1), cc.p(0, 0))
-    @voidNode.addChild(bg2, 1, cc.p(0.3, 0.3), cc.p(0, 0))
-    @voidNode.addChild(bg3, 2, cc.p(0.5, 0.5), cc.p(0, 0))
+    @voidNode.addChild(bg1, 0, cc.p(0.03, 0.03), cc.p(0, 0))
+    @voidNode.addChild(bg2, 1, cc.p(0.05, 0.05), cc.p(0, 0))
+    @voidNode.addChild(bg3, 2, cc.p(0.08, 0.08), cc.p(0, 0))
 
     @addChild(@voidNode)
 
@@ -284,11 +380,14 @@ Space.BackgroundLayer = Layer.extend
   #   @labelCoin.zIndex = 10
   #   @addChild(@labelCoin)
 
+a = null
 Space.GameLayer = Layer.extend
 
   cName: "GameLayer"
 
-  initialize: (@bg) ->
+  initialize: (@scene) ->
+
+    @scheduleUpdate()
 
     @width = G.MAP_SIZE[0]
     @height = G.MAP_SIZE[1]
@@ -309,36 +408,146 @@ Space.GameLayer = Layer.extend
 
     center = cc.p(@width/2, @height/2)
 
-    label = cc.LabelTTF.create("Coins:0", "Helvetica", 40)
-    label.setPosition center
-    label.__cName = "LABEL"
 
-    listener = cc.EventListener.create
-      event: G.MOUSE,
-      onMouseDown: (event) =>
-        @parent.currentEventTarget = event.getCurrentTarget()
-      onMouseUp: (event) =>
-        if @parent.currentEventTarget is event.getCurrentTarget()
-          target = event.getCurrentTarget()
-          cc.log ">>>"
-          cc.log target
+    ###
+     # ------------------------------------------------------
+    ###
 
-    cc.eventManager.addListener(listener, label)
+
+
+    # label = cc.LabelTTF.create("Coins:0", "Helvetica", 40)
+    # label.setPosition center
+
+    # cc.log "SCENE"
+    # cc.log @scene
+
+    # _.extend label, Skeleton,
+
+    #   onMouseDown: @assign @scene, (event) ->
+    #     cc.log event.getCurrentTarget()
+
+    #   onTouchesBegan: @assign @scene, (event) ->
+    #     cc.log "TOUCH"
+    #     false
+
+    #   onTouchesEnded: @assigned @scene, (event) ->
+    #     cc.log "TOUCH ENDED"
+    #     event.getCurrentTarget().opacity = 180
+    #     false
+
+    #   onMouseUp: @assigned @scene, (event) ->
+    #     cc.log "UP"
+    #     cc.log arguments
+    #     cc.log event.getCurrentTarget()
+    #     event.getCurrentTarget().opacity = 180
+    #     return true
+
+    # label.delegateEvents()
+
+    ###
+     # ---------------------------------------------------
+    ###
+    #
+
+    planetNode = cc.Node.create()
+
+    mask = cc.Sprite.create RES.planet_clip_png
+    planet = cc.Sprite.create RES.planet_brown_jpg
+    planet2 = cc.Sprite.create RES.planet_brown_jpg
+    orb = cc.Sprite.create RES.planet_orb_png
+    orb2 = cc.Sprite.create RES.atmos_png
+
+    mask.opacity = 50
+
+    planet2.x = - planet2.width
+
+    clipper = cc.ClippingNode.create()
+    clipper.setStencil(mask)
+    clipper.setAlphaThreshold(0.5)
+    clipper.setContentSize cc.size mask.getContentSize().width, mask.getContentSize().height
+
+    clipper.addChild(mask, 1)
+    clipper.addChild(planet, 2)
+    clipper.addChild(planet2, 3)
+
+    move = cc.Sequence.create(
+      cc.MoveTo.create(35, cc.p(planet.width, 0)),
+      cc.CallFunc.create( ->
+        cc.log "HERE"
+        cc.log @
+        @setPosition cc.p(0, 0)
+      planet)).repeatForever()
+
+    move2 = cc.Sequence.create(
+      cc.MoveTo.create(35, cc.p(0, 0)),
+      cc.CallFunc.create( ->
+        cc.log "HERE"
+        cc.log @
+        @setPosition cc.p(-planet2.width, 0)
+      planet2)).repeatForever()
+
+    planet.runAction(move)
+    planet2.runAction(move2)
+    rotate = cc.RotateBy.create(180, 180).repeatForever()
+    fade = cc.Sequence.create(cc.FadeTo.create(90, 220), cc.FadeTo.create(90, 255)).repeatForever()
+    mask.runAction(rotate)
+
+    clipper.attr
+      x: 300
+      y: 300
+
+    orb.setPosition clipper.getPosition()
+    orb.opacity = 250
+
+    orb2.setPosition clipper.getPosition()
+    orb2.opacity = 250
+
+    rotate2 = rotate.clone()
+    orb2.runAction rotate2
+    orb.runAction rotate
+    orb.runAction fade
+    orb2.runAction fade.clone()
+
+    clipper.setRotation 30
+    planetNode.addChild clipper, 1
+    planetNode.addChild orb, 3
+    planetNode.addChild orb2, 2
+
+    # planetNode.runAction cc.MoveTo.create(10, cc.p(800, 600))
+    @addChild planetNode
+
+
+    # cc.log ">>>>>>>>>>>>>>>>>>>"
+    # G.cam = @getCamera()
 
     @drawNode.drawRect( cc.p(@x, @y), cc.p(@width, @height), null, 2, cc.color(255, 0, 255, 120))
 
     @w = w = cc.director.getWinSize()
 
-    @addChild(label)
+
+
+    # @addChild label
     @addChild @drawNode, 10
 
+  assign: (assigment, fn) ->
+    (e) =>
+      assigment.ctar = e.getCurrentTarget()
+      cc.log "SCENE TARGET"
+      cc.log @scene.currentEventTarget
+      fn arguments...
 
-
-
-
-
-
-
+  assigned: (assigment, fn) ->
+    (e, touches) =>
+      target = e.getCurrentTarget()
+      cc.log "ASSIGNED"
+      cc.log e
+      cc.log assigment.ctar
+      cc.log assigment.ctar is target
+      cc.log @scene.currentEventTarget
+      if assigment.ctar is target
+        assigment.ctar = null
+        if e.checkLocation target, touches
+          fn arguments...
 
   drawDot: (x, y, radius = 40) ->
     @drawNode.drawDot cc.p(x, y), radius, cc.color.WHITE
@@ -396,6 +605,12 @@ Space.Scene = Scene.extend
   cName: "SpaceScene"
 
   ###
+   # current event target
+   # of game layer
+  ###
+  ctar: null
+
+  ###
    # batch of drag events deltas
    # need for layers's slipping
   ###
@@ -434,12 +649,12 @@ Space.Scene = Scene.extend
      * background layer
      * with parallax node
     ###
-    @bgl = new Space.BackgroundLayer()
+    @bgl = new Space.BackgroundLayer @
 
     ###
      # main gameplay layer
     ###
-    @gpl = new Space.GameLayer()
+    @gpl = new Space.GameLayer @
 
     ###
      # gameplay layer position bounds
@@ -453,15 +668,15 @@ Space.Scene = Scene.extend
    # @param {cc.Point} pt point to be fixed if needed
    # @return {cc.Point|Boolean}
   ###
-  fixPosOverages: (pt) ->
+  fixPosOverages: (pt, p = cc.p()) ->
     for c in ['x', 'y']
-      pt[c] = unless pt[c] > @bounds[c]
+      p[c] = unless pt[c] > @bounds[c]
         _.max [pt[c], @bounds[c]]
       else
         _.min [pt[c], 0]
     if _.values(pt) is _.values(@gpl.getPosition())
       return false
-    pt
+    p
 
   ###
    # TODO
@@ -483,12 +698,15 @@ Space.Scene = Scene.extend
     if d.length > G.DRAG_AVG_FACTOR
       d.shift()
 
-    if aim = @fixPosOverages cc.p(@gpl.x + dX, @gpl.y + dY)
-      # TODO refactor this code !
-      @gpl.x = aim.x
-      @gpl.y = aim.y
-      @bgl.voidNode.x = aim.x
-      @bgl.voidNode.y = aim.y
+    aim = cc.p(@gpl.x + dX, @gpl.y + dY)
+
+    if faim = @fixPosOverages aim
+      ###
+       # TODO show bouding box with gradient
+       # based on _.pDiff(aim, faim)
+      ###
+      @gpl.setPosition faim
+      @bgl.voidNode.setPosition faim
 
   ###
    # MOUSE -------------------------------
@@ -499,36 +717,38 @@ Space.Scene = Scene.extend
 
   onMouseMove: (event) ->
     if event.getButton() is cc.EventMouse.BUTTON_LEFT
-      drag = =>
-        @drag(event.getDeltaX(), event.getDeltaY())
-      switch @fsm.current
-        when "dragging"
-          drag()
-        when "trapping"
-          maxD = _.max _.map [event.getDeltaX(), event.getDeltaY()], Math.abs
-          if maxD > G.MIN_DRAG_DELTA
-            @fsm.drag()
-            drag()
+      @trapMove event.getDeltaX(), event.getDeltaY()
 
   onMouseUp: (event) ->
     if @fsm.is "dragging"
       @fsm.slip()
 
+  trapMove: (dX, dY) ->
+    switch @fsm.current
+      when "dragging"
+        @drag dX, dY
+      when "trapping"
+        maxD = _.max _.map [dX, dY], Math.abs
+        if maxD > G.MIN_DRAG_DELTA
+          @fsm.drag()
+          @drag dX, dY
+
   ###
    # TOUCHES -----------------------------
   ###
 
-  # onTouchesBegan: (event, touches) ->
-  #   if touches.length is 1
-  #     @fsm.drag()
+  onTouchesBegan: (event, touches) ->
+    if touches.length is 1
+      @fsm.trap()
 
-  # onTouchesMoved: (event, touches) ->
-  #   if touches.length is 1
-  #     @grag(touches[0].getDelta().x, touches[0].getDelta().y)
+  onTouchesMoved: (event, touches) ->
+    if touches.length is 1
+      @trapMove(touches[0].getDelta().x, touches[0].getDelta().y)
 
-  # onTouchesEnded: (event, touches) ->
-  #   if touches.length is 1
-  #     @fsm.move() # TODO pass delta batch!
+  onTouchesEnded: (event, touches) ->
+    if touches.length is 1
+      if @fsm.is "dragging"
+        @fsm.slip()
 
   ###
    # STATES ------------------------------
@@ -536,7 +756,7 @@ Space.Scene = Scene.extend
 
   onEnterDragging: (currentEventTarget) ->
     cc.log "ENTER MOVING"
-    @currentEventTarget = null
+    @ctar = null
 
   onEnterMoving: ->
     cc.log "LAST MOVING DELTA"
@@ -546,10 +766,14 @@ Space.Scene = Scene.extend
     cc.log "TRAPPING"
 
   onEnterSlipping: ->
-    if aim = @fixPosOverages( _.fold @gpl, (_.shift (_.amid @dragDelstasBatch...), G.DRAG_SLIP_FACTOR ))
+    d = _.pCalc (_.pAmid @dragDelstasBatch...), (v) ->
+      v*= G.DRAG_SLIP_FACTOR
+
+    if aim = @fixPosOverages _.pAdd @gpl, d
       slip = cc.MoveTo.create(1, aim).easing(cc.easeExponentialOut())
-      @gpl.runAction slip
       @dragDelstasBatch = []
+
+      @gpl.runAction slip
       @bgl.voidNode.runAction slip.clone()
 
 
